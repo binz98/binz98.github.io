@@ -51,7 +51,24 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 </div>
 </div>
 
-- [Tptu-v2: Boosting task planning and tool usage of large language model-based agents in real-world systems](https://arxiv.org/abs/2311.11315), Yilun Kong, Jingqing Ruan, Yihong Chen, **Bin Zhang**, Tianpeng Bao, Shiwei Shi, Guoqing Du, Xiaoru Hu, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao, **ICLR 2024 Workshop on LLM Agents**
+- `ICLR 2024 Workshop on LLM Agents` [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884), **Bin Zhang**, Hangyu Mao, Jingqing Ruan, et al.
+- `ICLR 2024 Workshop on LLM Agents` [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315), Yilun Kong, Jingqing Ruan, Yihong Chen, **Bin Zhang**, et al.
+- `IJCNN 2024` SGCD: Subgroup Contribution Decomposition for Multi-Agent Reinforcement Learning, Hao Chen, **Bin Zhang**, Guoliang Fan.
+- `AAMAS 2024` [PDiT: Interleaving Perception and Decision-making Transformers for Deep Reinforcement Learning](https://arxiv.org/abs/2312.15863v1), Hangyu Mao, Rui Zhao, Ziyue Li, Zhiwei Xu, Hao Chen, Yiqun Chen, Bin Zhang, et al.
+- `AAMAS Extended Abstract 2024` [From Explicit Communication to Tacit Cooperation:A Novel Paradigm for Cooperative MARL](https://arxiv.org/abs/2304.14656), Dapeng Li, Zhiwei Xu, **Bin Zhang**, and Guoliang Fan.
+- `ICASSP 2024` [Adaptive Parameter Sharing for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.09009), Dapeng Li, Na Lou, **Bin Zhang**, Zhiwei Xu, Guoliang Fan
+- `NeurIPS 2023` [Dual Self-Awareness Value Decomposition Framework without Individual Global Max for Cooperative MARL](https://arxiv.org/abs/2302.02180), Zhiwei Xu, **Bin Zhang**, Dapeng Li, Guangchong Zhou, Zeren Zhang, Guoliang Fan
+- `IJCAI 2023` [Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2304.10351), **Bin Zhang**, Lijuan Li, Zhiwei Xu, Dapeng Li, Guoliang Fan
+- `IJCNN 2023` [SEA: A Spatially Explicit Architecture for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2304.12532), Dapeng Li, Zhiwei Xu, **Bin Zhang**, Guoliang Fan
+- `AAAI 2023` [Consensus Learning for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2206.02583), Zhiwei Xu, **Bin Zhang**, Dapeng Li, Zeren Zhang, Guangchong Zhou, Hao Chen, Guoliang Fan
+- `AAAI 2023` [HAVEN: Hierarchical Cooperative Multi-Agent Reinforcement Learning with Dual Coordination Mechanism](https://arxiv.org/abs/2110.07246), Zhiwei Xu, Yunpeng Bai, **Bin Zhang**, Dapeng Li, and Guoliang Fan
+- `NeurIPS 2022` [Mingling Foresight with Imagination: Model-Based Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2204.09418), Zhiwei Xu, Dapeng Li, **Bin Zhang**, Yuan Zhan, Yunpeng Bai, and Guoliang Fan
+- `ICONIP 2022` [Multi-Agent Hyper-Attention Policy Optimization](https://link.springer.com/chapter/10.1007/978-3-031-30105-6_7), **Bin Zhang**, Zhiwei Xu, Yiqun Chen, Dapeng Li, Yunpeng Bai, Guoliang Fan, and Lijuan Li
+- `ICONIP 2022` [Efficient Policy Generation in Multi-Agent Systems via Hypergraph Neural Network](https://arxiv.org/abs/2203.03265), **Bin Zhang**, Yunpeng Bai, Zhiwei Xu, Dapeng Li, and Guoliang Fan
+- `IJCNN 2022` [Cooperative Multi-agent Reinforcement Learning with Hypergraph Convolution](https://arxiv.org/abs/2112.06771), Yunpeng Bai, Chen Gong, **Bin Zhang**, Guoliang Fan, Xinwen Hou, Yu Liu
+- `AAMAS 2022` [SIDE: State Inference for Partially Observable Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2105.06228), Zhiwei Xu, Yunpeng Bai, Dapeng Li, **Bin Zhang**, and Guoliang Fan
+- `ICONIP 2022` [Learning to Coordinate via Multiple Graph Neural Networks](https://arxiv.org/abs/2104.03503), Zhiwei Xu, **Bin Zhang**, Yunpeng Bai, Dapeng Li, and Guoliang Fan
+
 
 # 🎖 Honors and Awards
 - *2023*, Future Star, SenseTime Research (Intern Top 1)
