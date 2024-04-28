@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to Bin Zhang’s Personal Homepage!
 
-I am a fourth-year Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/). My research interests include Reinforcement Learning, Multi-agent System, and Large Language Model (LLM) Agents. I am very fortunate to be advised by [Prof. Guoliang Fan](https://people.ucas.ac.cn/~fanguoliang) of Complex Systems Cognition and Decision Making Lab.
+I am a fourth-year Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/). My research interests include Reinforcement Learning, Multi-agent System, and Large Language Model (LLM) Agents. I am very fortunate to be advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang) of Complex Systems Cognition and Decision Making Lab.
 
 In my doctoral studies, I have been investigating how to enable autonomous agents to learn and make decisions in complex, multi-agent environments. This includes developing new reinforcement learning algorithms that allow agents to cooperate, compete, and adapt in the face of uncertainty and partial information. 
 % I have published more than 20 papers at the international AI conferences with total <a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
@@ -36,6 +36,15 @@ If you are interested with my experience or research. Plese feel free to contact
 - *2024.12*: &nbsp;🎉🎉 One paper is accepted by **ICASSP 2024**!
 - *2024.09*: &nbsp;🎉🎉 One paper is accepted by **NeurIPS 2023**!
 - *2024.04*: &nbsp;🎉🎉 One first-author paper is accepted by **IJCAI 2023**!
+
+# 📖 Educations
+- *2020.09 - 2025.06 (expected)*, Ph.D in Institute of Automation, Chinese Academy of Sciences
+- *2016.09 - 2020.06*, B.S. in School of Control Science and Engineering, Shandong University
+
+# 💬 Research Interest
+- Reinforcement Learning
+- Multi-agent Coordination
+- LLM agents (Tool Learning, Text-to-SQL,  Text-based Game)
 
 # 📝 Publications 
 
@@ -69,7 +78,14 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - `AAMAS 2022` [SIDE: State Inference for Partially Observable Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2105.06228), Zhiwei Xu, Yunpeng Bai, Dapeng Li, **Bin Zhang**, and Guoliang Fan
 - `ICONIP 2022` [Learning to Coordinate via Multiple Graph Neural Networks](https://arxiv.org/abs/2104.03503), Zhiwei Xu, **Bin Zhang**, Yunpeng Bai, Dapeng Li, and Guoliang Fan
 
+# 🧑‍🎨 Preprint
+- `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951), **Bin Zhang**, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
+- `arXiv:2305.07856` [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856), **Bin Zhang**, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
+- `arXiv:2403.09732` [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732), Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, **Bin Zhang**, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
+-  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh), Guangchong Zhou, Zhiwei Xu, **Bin Zhang**, Dapeng Li, Zeren Zhang, Guoliang Fan
+  
 
+ 
 # 🎖 Honors and Awards
 - *2023*, Future Star, SenseTime Research (Intern Top 1)
 - *2023*, Merit Student, University of Chinese Academy of Sciences
@@ -79,15 +95,6 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - *2017-2019*, National Scholarship, Ministry of Education (2 times)
 - *2017-2020*, First-class Scholarship, Shandong University (3 times)
 
-
-# 📖 Educations
-- *2020.09 - 2025.06 (expected)*, Ph.D in Institute of Automation, Chinese Academy of Sciences
-- *2016.09 - 2020.06*, B.S. in School of Control Science and Engineering, Shandong University
-
-# 💬 Research Interest
-- Reinforcement Learning
-- Multi-agent Coordination
-- LLM agents (Tool Learning, Text-to-SQL,  Text-based Game)
 
 # 💻 Internships
 - *2023.07 - 2024.04*, [SenseTime Research](https://www.sensetime.com/), China.
