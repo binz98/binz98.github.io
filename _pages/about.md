@@ -39,7 +39,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS 2023 Work Shop</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS 2023 Work Shop</div><img src='images/TPTU.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Tptu: Task planning and tool usage of large language model-based ai agents](https://arxiv.org/abs/2308.03427)
