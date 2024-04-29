@@ -60,6 +60,18 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv:2403.02951</div><img src='images/benchmark.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951)
+
+**Bin Zhang**, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
+
+[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&sortby=pubdate&citation_for_view=6Cqm0pYAAAAJ:aqlVkmm33-oC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+- We create a new dataset and evaluating LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies. 
+</div>
+</div>
+
 - `ICLR 2024 Workshop on LLM Agents` [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884), **Bin Zhang**, Hangyu Mao, Jingqing Ruan, et al.
 - `ICLR 2024 Workshop on LLM Agents` [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315), Yilun Kong, Jingqing Ruan, Yihong Chen, **Bin Zhang**, et al.
 - `IJCNN 2024` SGCD: Subgroup Contribution Decomposition for Multi-Agent Reinforcement Learning, Hao Chen, **Bin Zhang**, Guoliang Fan.
