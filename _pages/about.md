@@ -48,7 +48,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS 2023 Work Shop</div><img src='images/TPTU.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NIPS 2023 Workshop</div><img src='images/TPTU.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Tptu: Task planning and tool usage of large language model-based ai agents](https://arxiv.org/abs/2308.03427)
@@ -99,7 +99,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 
  
 # 🎖 Honors and Awards
-- *2023*, Future Star, SenseTime Research (Intern Top 1)
+- *2023*, Future Star Award, SenseTime Research (Intern Top 1)
 - *2023*, Merit Student, University of Chinese Academy of Sciences
 - *2022*, Climbing Scholarship, University of Chinese Academy of Sciences
 - *2020*, Outstanding Graduates, Shandong Province
