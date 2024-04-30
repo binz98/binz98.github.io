@@ -32,10 +32,10 @@ If you are interested with my experience or research. Plese feel free to contact
 - *2024.03*: &nbsp;🎉🎉 One paper is accepted by **IJCNN 2024**!
 - *2024.02*: &nbsp;🎉🎉 One first-author paper is accepted by **ICLR 2024 Workshop on LLM Agents**!
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted by **ICLR 2024 Workshop on LLM Agents**!
-- *2024.12*: &nbsp;🎉🎉 Two papers are accepted by **AAMAS 2024**!
-- *2024.12*: &nbsp;🎉🎉 One paper is accepted by **ICASSP 2024**!
-- *2024.09*: &nbsp;🎉🎉 One paper is accepted by **NeurIPS 2023**!
-- *2024.04*: &nbsp;🎉🎉 One first-author paper is accepted by **IJCAI 2023**!
+- *2023.12*: &nbsp;🎉🎉 Two papers are accepted by **AAMAS 2024**!
+- *2023.12*: &nbsp;🎉🎉 One paper is accepted by **ICASSP 2024**!
+- *2023.09*: &nbsp;🎉🎉 One paper is accepted by **NeurIPS 2023**!
+- *2023.04*: &nbsp;🎉🎉 One first-author paper is accepted by **IJCAI 2023**!
 
 # 📖 Educations
 - *2020.09 - 2025.06 (expected)*, Ph.D in Institute of Automation, Chinese Academy of Sciences
