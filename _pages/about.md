@@ -28,14 +28,15 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2024.05*: &nbsp;🎉🎉 One **first-author** paper is accepted by **ICML 2024**!
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by **IJCAI 2024**!
 - *2024.03*: &nbsp;🎉🎉 One paper is accepted by **IJCNN 2024**!
-- *2024.02*: &nbsp;🎉🎉 One first-author paper is accepted by **ICLR 2024 Workshop on LLM Agents**!
+- *2024.02*: &nbsp;🎉🎉 One **first-author** paper is accepted by **ICLR 2024 Workshop on LLM Agents**!
 - *2024.02*: &nbsp;🎉🎉 One paper is accepted by **ICLR 2024 Workshop on LLM Agents**!
 - *2023.12*: &nbsp;🎉🎉 Two papers are accepted by **AAMAS 2024**!
 - *2023.12*: &nbsp;🎉🎉 One paper is accepted by **ICASSP 2024**!
 - *2023.09*: &nbsp;🎉🎉 One paper is accepted by **NeurIPS 2023**!
-- *2023.04*: &nbsp;🎉🎉 One first-author paper is accepted by **IJCAI 2023**!
+- *2023.04*: &nbsp;🎉🎉 One **first-author** paper is accepted by **IJCAI 2023**!
 
 # 📖 Educations
 - *2020.09 - 2025.06 (expected)*, Ph.D in Institute of Automation, Chinese Academy of Sciences
@@ -72,6 +73,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 </div>
 </div>
 
+- `ICML 2024` [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856), **Bin Zhang**, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
 - `IJCAI 2024` [PTDE: Personalized Training with Distilled Execution for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2210.08872), Yiqun Chen, Hangyu Mao, Jiaxin Mao, Shiguang Wu, Tianle Zhang, **Bin Zhang**, Wei Yang, Hongxing Chang
 - `ICLR 2024 Workshop on LLM Agents` [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884), **Bin Zhang**, Hangyu Mao, Jingqing Ruan, et al.
 - `ICLR 2024 Workshop on LLM Agents` [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315), Yilun Kong, Jingqing Ruan, Yihong Chen, **Bin Zhang**, et al.
@@ -93,7 +95,6 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 
 # 🧑‍🎨 Preprint
 - `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951), **Bin Zhang**, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
-- `arXiv:2305.07856` [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856), **Bin Zhang**, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
 - `arXiv:2403.09732` [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732), Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, **Bin Zhang**, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 -  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh), Guangchong Zhou, Zhiwei Xu, **Bin Zhang**, Dapeng Li, Zeren Zhang, Guoliang Fan
   
