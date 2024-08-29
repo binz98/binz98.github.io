@@ -28,6 +28,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2024.08*: &nbsp;🎉🎉 Two papers are accepted by **ICONIP 2024**!
 - *2024.05*: &nbsp;🎉🎉 One **first-author** paper is accepted by **ICML 2024**!
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by **IJCAI 2024**!
 - *2024.03*: &nbsp;🎉🎉 One paper is accepted by **IJCNN 2024**!
@@ -81,6 +82,8 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - `AAMAS 2024` [PDiT: Interleaving Perception and Decision-making Transformers for Deep Reinforcement Learning](https://arxiv.org/abs/2312.15863v1), Hangyu Mao, Rui Zhao, Ziyue Li, Zhiwei Xu, Hao Chen, Yiqun Chen, Bin Zhang, et al.
 - `AAMAS Extended Abstract 2024` [From Explicit Communication to Tacit Cooperation:A Novel Paradigm for Cooperative MARL](https://arxiv.org/abs/2304.14656), Dapeng Li, Zhiwei Xu, **Bin Zhang**, and Guoliang Fan.
 - `ICASSP 2024` [Adaptive Parameter Sharing for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.09009), Dapeng Li, Na Lou, **Bin Zhang**, Zhiwei Xu, Guoliang Fan
+- `ICONIP 2024` Decentralized Extension for Centralized Multi-Agent Reinforcement Learning via Online Distillation, Zeren Zhang, **Bin Zhang**, Guangchong Zhou, Dapeng Li, Zhiwei Xu and Guoliang Fan
+- `ICONIP 2024` GATE: Guided Contrastive State Space for Multi-Agent Reinforcement Learning, Hao Chen, **Bin Zhang** and Guoliang Fan
 - `NeurIPS 2023` [Dual Self-Awareness Value Decomposition Framework without Individual Global Max for Cooperative MARL](https://arxiv.org/abs/2302.02180), Zhiwei Xu, **Bin Zhang**, Dapeng Li, Guangchong Zhou, Zeren Zhang, Guoliang Fan
 - `IJCAI 2023` [Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2304.10351), **Bin Zhang**, Lijuan Li, Zhiwei Xu, Dapeng Li, Guoliang Fan
 - `IJCNN 2023` [SEA: A Spatially Explicit Architecture for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2304.12532), Dapeng Li, Zhiwei Xu, **Bin Zhang**, Guoliang Fan
