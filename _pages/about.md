@@ -100,6 +100,8 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951), **Bin Zhang**, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
 - `arXiv:2403.09732` [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732), Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, **Bin Zhang**, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 -  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh), Guangchong Zhou, Zhiwei Xu, **Bin Zhang**, Dapeng Li, Zeren Zhang, Guoliang Fan
+-  [QPO: Query-dependent Prompt Optimization via Multi-Loop Offline Reinforcement Learning](https://arxiv.org/abs/2408.10504), Yilun Kong, Hangyu Mao, Qi Zhao, **Bin Zhang**, Jingqing Ruan, Li Shen, Yongzhe Chang, Xueqian Wang, Rui Zhao, Dacheng Tao
+-  [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2408.09501), Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Xin Xin, Pengjie Ren, Dapeng Li, **Bin Zhang**, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
   
 
  
