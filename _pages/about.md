@@ -28,6 +28,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 One paper is accepted by **EMNLP 2024 Industry Track**!
 - *2024.08*: &nbsp;🎉🎉 Two papers are accepted by **ICONIP 2024**!
 - *2024.05*: &nbsp;🎉🎉 One **first-author** paper is accepted by **ICML 2024**!
 - *2024.04*: &nbsp;🎉🎉 One paper is accepted by **IJCAI 2024**!
@@ -77,7 +78,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - `ICML 2024` [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856), **Bin Zhang**, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
 - `IJCAI 2024` [PTDE: Personalized Training with Distilled Execution for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2210.08872), Yiqun Chen, Hangyu Mao, Jiaxin Mao, Shiguang Wu, Tianle Zhang, **Bin Zhang**, Wei Yang, Hongxing Chang
 - `ICLR 2024 Workshop on LLM Agents` [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884), **Bin Zhang**, Hangyu Mao, Jingqing Ruan, et al.
-- `ICLR 2024 Workshop on LLM Agents` [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315), Yilun Kong, Jingqing Ruan, Yihong Chen, **Bin Zhang**, et al.
+- `EMNLP 2024 Industry Track` [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315), Yilun Kong, Jingqing Ruan, Yihong Chen, **Bin Zhang**, et al.
 - `IJCNN 2024` SGCD: Subgroup Contribution Decomposition for Multi-Agent Reinforcement Learning, Hao Chen, **Bin Zhang**, Guoliang Fan.
 - `AAMAS 2024` [PDiT: Interleaving Perception and Decision-making Transformers for Deep Reinforcement Learning](https://arxiv.org/abs/2312.15863v1), Hangyu Mao, Rui Zhao, Ziyue Li, Zhiwei Xu, Hao Chen, Yiqun Chen, Bin Zhang, et al.
 - `AAMAS Extended Abstract 2024` [From Explicit Communication to Tacit Cooperation:A Novel Paradigm for Cooperative MARL](https://arxiv.org/abs/2304.14656), Dapeng Li, Zhiwei Xu, **Bin Zhang**, and Guoliang Fan.
