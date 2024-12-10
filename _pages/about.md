@@ -28,6 +28,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2024.12*: &nbsp;🎉🎉 One paper is accepted by **AAAI 2026**!
 - *2024.10*: &nbsp;🎉🎉 One paper is accepted by **EMNLP 2024 Industry Track**!
 - *2024.08*: &nbsp;🎉🎉 Two papers are accepted by **ICONIP 2024**!
 - *2024.05*: &nbsp;🎉🎉 One **first-author** paper is accepted by **ICML 2024**!
