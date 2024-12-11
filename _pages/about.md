@@ -116,7 +116,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - *2017-2019*, National Scholarship, Ministry of Education (2 times)
 - *2017-2020*, First-class Scholarship, Shandong University (3 times)
 
-# 🌠 Services
+# 🌠 Academic Services
 **Program Committee Member or Reviewer:**
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Applied Soft Computing Journal
@@ -125,6 +125,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - AAAI Conference on Artificial Intelligence (AAAI 2025)
 - International Joint Conference on Artificial Intelligence (IJCAI 2024)
 - International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)
+- International World Wide Web Conference (WWW 2025)
 
 # 💻 Internships
 - *2023.07 - 2024.04*, [SenseTime Research](https://www.sensetime.com/), China.
