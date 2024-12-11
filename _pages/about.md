@@ -28,18 +28,18 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
-- *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025 (CCF-A)**!
-- *2024.10*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **EMNLP 2024 Industry Track (CCF-B)**!
-- *2024.08*: &nbsp;🎉🎉 Two papers have been accepted by **ICONIP 2024 (CCF-C)**!
-- *2024.05*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **ICML 2024 (CCF-A)**!
-- *2024.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2024 (CCF-A)**!
-- *2024.03*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2024 (CCF-C)**!
+- *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**!
+- *2024.10*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **EMNLP 2024 Industry Track**!
+- *2024.08*: &nbsp;🎉🎉 Two papers have been accepted by **ICONIP 2024**!
+- *2024.05*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **ICML 2024**!
+- *2024.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2024**!
+- *2024.03*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2024**!
 - *2024.02*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **ICLR 2024 Workshop on LLM Agents**!
 - *2024.02*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **ICLR 2024 Workshop on LLM Agents**!
-- *2023.12*: &nbsp;🎉🎉 Two papers have been accepted by **AAMAS 2024 (CCF-B)**!
-- *2023.12*: &nbsp;🎉🎉 One paper has been accepted accepted by **ICASSP 2024 (CCF-B)**!
-- *2023.09*: &nbsp;🎉🎉 One paper has been accepted by **NeurIPS 2023 (CCF-A)**!
-- *2023.04*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **IJCAI 2023 (CCF-A)**!
+- *2023.12*: &nbsp;🎉🎉 Two papers have been accepted by **AAMAS 2024**!
+- *2023.12*: &nbsp;🎉🎉 One paper has been accepted accepted by **ICASSP 2024**!
+- *2023.09*: &nbsp;🎉🎉 One paper has been accepted by **NeurIPS 2023**!
+- *2023.04*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **IJCAI 2023**!
 
 # 📖 Educations
 - *2020.09 - 2025.06 (expected)*, Ph.D in Institute of Automation, Chinese Academy of Sciences
