@@ -24,7 +24,7 @@ I am a fifth-year Ph.D. student at the [Institute of Automation, Chinese Academy
 In my doctoral studies, I have been investigating how to enable autonomous agents to learn and make decisions in complex, multi-agent environments. This includes developing new reinforcement learning algorithms that allow agents to cooperate, compete, and adapt in the face of uncertainty and partial information. 
 I have published 20+ papers <a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the international AI conferences.
 
-If you are interested with my experience or research. Plese feel free to contact with me! [Wechat](../images/WeChat.jpg)
+If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg).
 
 
 # 🔥 News
