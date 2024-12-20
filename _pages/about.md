@@ -76,6 +76,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - We evaluate LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies. 
 </div>
 </div>
+
 - `AAMAS 2025` Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning, Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, **Bin Zhang**, Guoliang Fan
 - `AAAI 2025` Efficient Communication in Multi-Agent Reinforcement Learning with Implicit Consensus Generation, Dapeng Li, Na Lou, Zhiwei Xu, **Bin Zhang**, Guoliang Fan
 - `ICML 2024` [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856), **Bin Zhang**, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
