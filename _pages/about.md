@@ -28,6 +28,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2025**!
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**!
 - *2024.10*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **EMNLP 2024 Industry Track**!
 - *2024.08*: &nbsp;🎉🎉 Two papers have been accepted by **ICONIP 2024**!
@@ -75,7 +76,8 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - We evaluate LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies. 
 </div>
 </div>
-
+- `AAMAS 2025` Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning, Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, **Bin Zhang**, Guoliang Fan
+- `AAAI 2025` Efficient Communication in Multi-Agent Reinforcement Learning with Implicit Consensus Generation, Dapeng Li, Na Lou, Zhiwei Xu, **Bin Zhang**, Guoliang Fan
 - `ICML 2024` [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856), **Bin Zhang**, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
 - `IJCAI 2024` [PTDE: Personalized Training with Distilled Execution for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2210.08872), Yiqun Chen, Hangyu Mao, Jiaxin Mao, Shiguang Wu, Tianle Zhang, **Bin Zhang**, Wei Yang, Hongxing Chang
 - `ICLR 2024 Workshop on LLM Agents` [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884), **Bin Zhang**, Hangyu Mao, Jingqing Ruan, et al.
