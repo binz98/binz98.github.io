@@ -28,6 +28,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **TMLR**!
 - *2025.01*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **DASFAA 2025**!
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2025**!
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**!
