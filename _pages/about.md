@@ -28,7 +28,8 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **TMLR**!
+- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN**!
+- *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **TMLR** & **ICLR 2025 Workshop on DATA-FM**!
 - *2025.01*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **DASFAA 2025**!
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2025**!
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**!
@@ -79,6 +80,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 </div>
 </div>
 
+- `IJCNN 2025` Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation, Ce Zhang, **Bin Zhang**, Guoliang Fan
 - `DASFAA 2025` [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732), Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, **Bin Zhang**, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 - `AAMAS 2025` Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning, Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, **Bin Zhang**, Guoliang Fan
 - `AAAI 2025` Efficient Communication in Multi-Agent Reinforcement Learning with Implicit Consensus Generation, Dapeng Li, Na Lou, Zhiwei Xu, **Bin Zhang**, Guoliang Fan
