@@ -21,8 +21,8 @@ Welcome to Bin Zhang’s Personal Homepage!
 
 I am a fifth-year Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/). My research interests include Reinforcement Learning, Multi-agent System, and Large Language Model (LLM) Agents. I am very fortunate to be advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang) of the Key Laboratory of Cognition and Decision Intelligence for Complex Systems.
 
-My research centers on developing advanced AI algorithms, particularly in multi-agent reinforcement learning, to enable autonomous agents to cooperate, compete, and adapt in complex environments. Additionally, I explore the collaborative skills and tool-learning capabilities of Large Language Model (LLM) agents, aiming to enhance the effectiveness of autonomous systems in dynamic, multi-agent settings.
-I have published 20+ papers <a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at the international AI conferences.
+My research centers on developing advanced AI algorithms, particularly in multi-agent reinforcement learning, to enable autonomous agents to cooperate, compete, and adapt in complex environments. Additionally, I explore the collaborative skills and tool-learning capabilities of Large Language Model (LLM) agents, aiming to enhance the effectiveness of autonomous systems in dynamic, multi-agent settings, and I have published 20+ papers at the international AI conferences.
+
 
 If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg).
 
@@ -107,10 +107,10 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - `ICONIP 2022` [Learning to Coordinate via Multiple Graph Neural Networks](https://arxiv.org/abs/2104.03503), Zhiwei Xu, **Bin Zhang**, Yunpeng Bai, Dapeng Li, and Guoliang Fan
 
 # 🧑‍🎨 Preprint
+- `arXiv:2504.12961` [QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning?](https://arxiv.org/abs/2504.12961), Zhouyang Jiang, **Bin Zhang**, Airong Wei, Zhiwei Xu
 - `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951), **Bin Zhang**, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
 -  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh), Guangchong Zhou, Zhiwei Xu, **Bin Zhang**, Dapeng Li, Zeren Zhang, Guoliang Fan
--  [QPO: Query-dependent Prompt Optimization via Multi-Loop Offline Reinforcement Learning](https://arxiv.org/abs/2408.10504), Yilun Kong, Hangyu Mao, Qi Zhao, **Bin Zhang**, Jingqing Ruan, Li Shen, Yongzhe Chang, Xueqian Wang, Rui Zhao, Dacheng Tao
--  [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2408.09501), Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Xin Xin, Pengjie Ren, Dapeng Li, **Bin Zhang**, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
+-  `arXiv:2408.09501` [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2408.09501), Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Xin Xin, Pengjie Ren, Dapeng Li, **Bin Zhang**, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
   
 
  
