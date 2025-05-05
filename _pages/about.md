@@ -28,8 +28,8 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
-- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **ICML**!
-- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN**!
+- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **ICML 2025**!
+- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2025**!
 - *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **TMLR** & **ICLR 2025 Workshop on DATA-FM**!
 - *2025.01*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **DASFAA 2025**!
 - *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2025**!
