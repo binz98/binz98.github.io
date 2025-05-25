@@ -19,10 +19,12 @@ redirect_from:
 
 Welcome to Bin Zhang’s Personal Homepage!
 
-I am a fifth-year Ph.D. student at the [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/). My research interests include Reinforcement Learning, Multi-agent System, and Large Language Model (LLM) Agents. I am very fortunate to be advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang) of the Key Laboratory of Cognition and Decision Intelligence for Complex Systems.
+I am an **Assistant Research Fellow/Postdoctoral Researcher** at the [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. Advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
 
-My research centers on developing advanced AI algorithms, particularly in multi-agent reinforcement learning, to enable autonomous agents to cooperate, compete, and adapt in complex environments. Additionally, I explore the collaborative skills and tool-learning capabilities of Large Language Model (LLM) agents, aiming to enhance the effectiveness of autonomous systems in dynamic, multi-agent settings, and I have published 20+ papers at the international AI conferences.<a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
-
+- Developing ​​adaptive AI algorithms​​ for multi-agent cooperation/competition in complex environments.
+- Advancing ​​LLM agents' collaborative reasoning​​ and ​​tool-learning capabilities​​ for autonomous systems.
+  
+I also work closely with Assistant Professor [Xu Zhiwei](https://xuleek.tech/) from Shandong University. And I have published 20+ papers at the international AI conferences.<a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg).
 
