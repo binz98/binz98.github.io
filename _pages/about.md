@@ -64,7 +64,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 [Tptu: Task planning and tool usage of large language model-based ai agents](https://arxiv.org/abs/2308.03427)
 
-Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
+Jingqing Ruan, Yihong Chen, <u>**Bin Zhang**</u>, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
 
 [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&citation_for_view=6Cqm0pYAAAAJ:qxL8FJ1GzNcC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - We propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate problems. 
@@ -83,7 +83,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 </div>
 </div>
 
-- <span style="background-color: blue; color: white; padding: 2px 6px; border-radius: 4px;">ICML 2025</span>  Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning. Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, **Bin Zhang**, Dapeng Li, Jiangjin Yin
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICML 2025</span>  Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning. Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, **Bin Zhang**, Dapeng Li, Jiangjin Yin
 - `IJCNN 2025` Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation. Ce Zhang, **Bin Zhang**, Guoliang Fan
 - `DASFAA 2025` [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732). Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, **Bin Zhang**, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 - `AAMAS 2025` Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning. Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, **Bin Zhang**, Guoliang Fan
