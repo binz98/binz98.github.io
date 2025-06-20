@@ -111,6 +111,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 - `ICONIP 2022` [Learning to Coordinate via Multiple Graph Neural Networks](https://arxiv.org/abs/2104.03503). Zhiwei Xu, **Bin Zhang**, Yunpeng Bai, Dapeng Li, and Guoliang Fan
 
 # 🧑‍🎨 Preprint
+- `arXiv:2506.12509` [Graph of Verification: Structured Verification of LLM Reasoning with Directed Acyclic Graphs]([https://arxiv.org/abs/2504.12961](https://arxiv.org/abs/2506.12509)). Jiwei Fang, **Bin Zhang**, Changwei Wang, Jin Wan, Zhiwei Xu
 - `arXiv:2504.12961` [QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning?](https://arxiv.org/abs/2504.12961). Zhouyang Jiang, **Bin Zhang**, Airong Wei, Zhiwei Xu
 - `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951). **Bin Zhang**, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
 -  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, **Bin Zhang**, Dapeng Li, Zeren Zhang, Guoliang Fan
