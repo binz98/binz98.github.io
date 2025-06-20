@@ -83,7 +83,7 @@ Jingqing Ruan, Yihong Chen, **Bin Zhang**, Zhiwei Xu, Tianpeng Bao, Guoqing Du, 
 </div>
 </div>
 
-- {% include badge.html text="ICML 2025" color="#0d6efd" %}  Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning. Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, **Bin Zhang**, Dapeng Li, Jiangjin Yin
+- `ICML 2025`  Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning. Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, **Bin Zhang**, Dapeng Li, Jiangjin Yin
 - `IJCNN 2025` Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation. Ce Zhang, **Bin Zhang**, Guoliang Fan
 - `DASFAA 2025` [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732). Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, **Bin Zhang**, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 - `AAMAS 2025` Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning. Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, **Bin Zhang**, Guoliang Fan
