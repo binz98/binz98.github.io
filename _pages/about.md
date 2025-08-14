@@ -133,9 +133,10 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Applied Soft Computing Journal
 - International Conference on Learning Representations (ICLR 2024)
-- International Conference on Machine Learning (ICML 2024)
-- AAAI Conference on Artificial Intelligence (AAAI 2025)
-- International Joint Conference on Artificial Intelligence (IJCAI 2024)
+- International Conference on Machine Learning (ICML 2024, 2025)
+- Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
+- AAAI Conference on Artificial Intelligence (AAAI 2025, 2026)
+- International Joint Conference on Artificial Intelligence (IJCAI 2024, 2025)
 - International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)
 - International World Wide Web Conference (WWW 2025)
 
