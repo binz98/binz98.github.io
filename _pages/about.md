@@ -24,7 +24,7 @@ I am an **Assistant Professor/Postdoctoral Fellow** at the [Institute of Automat
 - Developing ​​adaptive AI algorithms​​ for multi-agent cooperation/competition in complex environments.
 - Advancing ​​LLM agents' collaborative reasoning​​ and ​​tool-learning capabilities​​ for autonomous systems.
   
-I also work closely with [Prof. Zhiwei Xu (徐志伟)](https://xuleek.tech/) (Assistant Professor, Shandong University). And I have published 20+ papers at the international AI conferences.<a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+I also work closely with [Prof. Zhiwei Xu (徐志伟)](https://xuleek.tech/) (Assistant Professor, Shandong University). And I have published 30+ papers at the international AI conferences.<a href='https://scholar.google.com/citations?user=6Cqm0pYAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg).
 
