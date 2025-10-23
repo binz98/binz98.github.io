@@ -19,7 +19,7 @@ redirect_from:
 
 Welcome to Bin Zhang’s Personal Homepage!
 
-I am an **Assistant Professor/Postdoctoral Researcher** at the [Institute of Automation, Chinese Academy of Sciences (CASIA, 中国科学院自动化研究所)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. Advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
+I am an **Assistant Professor/Postdoctoral Fellow** at the [Institute of Automation, Chinese Academy of Sciences (CASIA, 中国科学院自动化研究所)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. Advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
 
 - Developing ​​adaptive AI algorithms​​ for multi-agent cooperation/competition in complex environments.
 - Advancing ​​LLM agents' collaborative reasoning​​ and ​​tool-learning capabilities​​ for autonomous systems.
