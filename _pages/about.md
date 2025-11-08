@@ -30,6 +30,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2026**!
 - *2025.05*: &nbsp;🎉🎉 One paper has been accepted by **ICML 2025**!
 - *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2025**!
 - *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **TMLR** & **ICLR 2025 Workshop on DATA-FM**!
@@ -82,8 +83,8 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - We evaluate LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies. 
 </div>
 </div>
-
-- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICML 2025</span>  Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning. Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Jiangjin Yin
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AAAI 2026</span>  [Graph of Verification: Structured Verification of LLM Reasoning with Directed Acyclic Graphs](https://arxiv.org/abs/2506.12509). Jiwei Fang, <strong><u>Bin Zhang<strong><u>, Changwei Wang, Jin Wan, Zhiwei Xu
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICML 2025</span>  [Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning](https://openreview.net/forum?id=vUDWRMB3tX&noteId=PzF98Qf08i). Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Jiangjin Yin
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">IJCNN 2025</span> Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation. Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">DASFAA 2025</span> [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732). Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, <strong><u>Bin Zhang</u></strong>, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AAMAS 2025</span> Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning. Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
@@ -132,7 +133,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 **Program Committee Member or Reviewer:**
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Applied Soft Computing Journal
-- International Conference on Learning Representations (ICLR 2024)
+- International Conference on Learning Representations (ICLR 2024, 2025, 2026)
 - International Conference on Machine Learning (ICML 2024, 2025)
 - Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
 - AAAI Conference on Artificial Intelligence (AAAI 2025, 2026)
