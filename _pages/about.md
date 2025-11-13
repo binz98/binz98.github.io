@@ -117,6 +117,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951). <strong><u>Bin Zhang</u></strong>, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
 -  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
 -  `arXiv:2408.09501` [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2408.09501). Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
+-  `arXiv:2404.17780` [Verco: Learning Coordinated Verbal Communication for Multi-agent Reinforcement Learning](https://arxiv.org/abs/2404.17780). Dapeng Li, Hang Dong, Lu Wang, Bo Qiao, Si Qin, Qingwei Lin, Dongmei Zhang, Qi Zhang, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
   
 
  
