@@ -84,6 +84,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - We evaluate LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies. 
 </div>
 </div>
+
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AAAI 2026</span>  [Graph of Verification: Structured Verification of LLM Reasoning with Directed Acyclic Graphs](https://arxiv.org/abs/2506.12509). Jiwei Fang, <strong><u>Bin Zhang<strong><u>, Changwei Wang, Jin Wan, Zhiwei Xu
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICML 2025</span>  [Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning](https://openreview.net/forum?id=vUDWRMB3tX&noteId=PzF98Qf08i). Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Jiangjin Yin
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">IJCNN 2025</span> Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation. Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
