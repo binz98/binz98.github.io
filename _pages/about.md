@@ -49,8 +49,9 @@ If you are interested with my experience or research. Plese feel free to contact
 - *2023.09*: &nbsp;🎉🎉 One paper has been accepted by **NeurIPS 2023**!
 - *2023.04*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **IJCAI 2023**!
 
-# 📖 Educations
-- *2020.09 - 2025.06* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px;"> Ph.D. Candidate in [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)
+# 📖 Experience
+- *2025.07 - Present* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px;"> Assistant Professor in [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)
+- *2020.09 - 2025.06* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px;"> Ph.D. in [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)
 - *2016.09 - 2020.06* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/sduicon.ico" alt="SDU" style="width:20px;height:20px;"> B.E. in [School of Control Science and Engineering, Shandong University](https://control.sdu.edu.cn/)
 
 # 💬 Research Interest
