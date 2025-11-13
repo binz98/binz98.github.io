@@ -54,6 +54,42 @@ If you are interested with my experience or research. Plese feel free to contact
 - *2020.09 - 2025.06* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px;"> Ph.D. in [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)
 - *2016.09 - 2020.06* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/sduicon.ico" alt="SDU" style="width:20px;height:20px;"> B.E. in [School of Control Science and Engineering, Shandong University](https://control.sdu.edu.cn/)
 
+<table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+  <tr>
+    <td style="width: 20%; text-align: left; vertical-align: top; padding-right: 15px;">
+      2025.07 - Present
+    </td>
+    <td style="width: 80%; text-align: left; vertical-align: top;">
+      <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px; vertical-align: middle;">
+      <span style="vertical-align: middle;"> Assistant Professor in 
+        <a href="http://www.ia.cas.cn/" target="_blank">Institute of Automation, Chinese Academy of Sciences</a>
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 20%; text-align: left; vertical-align: top; padding-right: 15px;">
+      2020.09 - 2025.06
+    </td>
+    <td style="width: 80%; text-align: left; vertical-align: top;">
+      <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px; vertical-align: middle;">
+      <span style="vertical-align: middle;"> Ph.D. in 
+        <a href="http://www.ia.cas.cn/" target="_blank">Institute of Automation, Chinese Academy of Sciences</a>
+      </span>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 20%; text-align: left; vertical-align: top; padding-right: 15px;">
+      2016.09 - 2020.06
+    </td>
+    <td style="width: 80%; text-align: left; vertical-align: top;">
+      <img src="./images/sduicon.ico" alt="SDU" style="width:20px;height:20px; vertical-align: middle;">
+      <span style="vertical-align: middle;"> B.E. in 
+        <a href="https://control.sdu.edu.cn/" target="_blank">School of Control Science and Engineering, Shandong University</a>
+      </span>
+    </td>
+  </tr>
+</table>
+
 # 💬 Research Interest
 - Reinforcement Learning
 - Multi-agent Coordination
