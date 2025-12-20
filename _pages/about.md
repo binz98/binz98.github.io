@@ -30,6 +30,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2025.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2026**!
 - *2025.11*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2026**!
 - *2025.05*: &nbsp;🎉🎉 One paper has been accepted by **ICML 2025**!
 - *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2025**!
@@ -84,7 +85,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - We evaluate LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies. 
 </div>
 </div>
-
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AAMAS 2026</span>  Quality-Diversity for Multi-Agent Reinforcement Learning. Hao Chen, Pengyi Li, <strong><u>Bin Zhang</u></strong>, Hu Fu, Zhiwei Xu, Ce Zhang, Xinyue Lu, Guoliang Fan
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AAAI 2026</span>  [Graph of Verification: Structured Verification of LLM Reasoning with Directed Acyclic Graphs](https://arxiv.org/abs/2506.12509). Jiwei Fang, <strong><u>Bin Zhang<strong><u>, Changwei Wang, Jin Wan, Zhiwei Xu
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICML 2025</span>  [Reidentify:Context-AwareIdentityGenerationforContextual Multi-AgentReinforcementLearning](https://openreview.net/forum?id=vUDWRMB3tX&noteId=PzF98Qf08i). Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Jiangjin Yin
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">IJCNN 2025</span> [Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation](https://ieeexplore.ieee.org/document/11229180). Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
