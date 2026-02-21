@@ -30,6 +30,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 One paper has been accepted by **ICAPS 2026**!
 - *2026.01*: &nbsp;🎉🎉 Two papers have been accepted by **ICLR 2026**!
 - *2025.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2026**!
 - *2025.11*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2026**!
@@ -87,6 +88,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICAPS 2026</span> QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning. Yuanjun Li, <strong><u>Bin Zhang</u></strong>, Hao Chen, Zhouyang Jiang, Dapeng Li, Zhiwei Xu
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICLR 2026</span> [Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL](https://openreview.net/forum?id=7vpehpWnnY). Zhiwei Xu, Miduo Cui, Dapeng Li, Zhihao Liu, Haifeng Zhang, Hangyu Mao, Guoliang Fan, <strong><u>Bin Zhang</u></strong>
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICLR 2026</span> [Towards Better Branching Policies: Leveraging the Sequential Nature of Branch-and-Bound Tree](https://openreview.net/forum?id=iQKzHeLDrN). Ce Zhang,  <strong><u>Bin Zhang</u></strong>, Guoliang Fan
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AAMAS 2026</span>  Quality-Diversity for Multi-Agent Reinforcement Learning. Hao Chen, Pengyi Li, <strong><u>Bin Zhang</u></strong>, Hu Fu, Zhiwei Xu, Ce Zhang, Xinyue Lu, Guoliang Fan
