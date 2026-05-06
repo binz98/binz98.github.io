@@ -30,6 +30,8 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 One paper has been accepted by **RLC 2026**!
+- *2026.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2026**!
 - *2026.02*: &nbsp;🎉🎉 One paper has been accepted by **ICAPS 2026**!
 - *2026.01*: &nbsp;🎉🎉 Two papers have been accepted by **ICLR 2026**!
 - *2025.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2026**!
@@ -88,6 +90,8 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">RLC 2026</span> Beyond Local Views: Global State Inference with Diffusion Models for Cooperative MARL. Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Shengtao Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">IJCAI 2026</span> From Traits to Roles: Consensus-Guided Composition of Orthogonal Experts for Cooperative MARL. Yewei Zhou, <strong><u>Bin Zhang</u></strong>, Ying Zhou, Xuri Ge, Dapeng Li, Hangyu Mao, Pengjie Ren, Zhiwei Xu
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICAPS 2026</span> QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning. Yuanjun Li, <strong><u>Bin Zhang</u></strong>, Hao Chen, Zhouyang Jiang, Dapeng Li, Zhiwei Xu
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICLR 2026</span> [Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL](https://openreview.net/forum?id=7vpehpWnnY). Zhiwei Xu, Miduo Cui, Dapeng Li, Zhihao Liu, Haifeng Zhang, Hangyu Mao, Guoliang Fan, <strong><u>Bin Zhang</u></strong>
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICLR 2026</span> [Towards Better Branching Policies: Leveraging the Sequential Nature of Branch-and-Bound Tree](https://openreview.net/forum?id=iQKzHeLDrN). Ce Zhang,  <strong><u>Bin Zhang</u></strong>, Guoliang Fan
