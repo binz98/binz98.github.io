@@ -30,6 +30,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 Two **first-author** papers have been accepted by **CASE 2026**!
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted by **RLC 2026**!
 - *2026.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2026**!
 - *2026.02*: &nbsp;🎉🎉 One paper has been accepted by **ICAPS 2026**!
@@ -78,7 +79,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv:2403.02951</div><img src='images/benchmark.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CASE 2026</div><img src='images/benchmark.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951)
@@ -90,6 +91,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">CASE 2026</span> [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884). <strong><u>Bin Zhang</u></strong>, Hangyu Mao, Jingqing Ruan, et al.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">RLC 2026</span> Beyond Local Views: Global State Inference with Diffusion Models for Cooperative MARL. Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Shengtao Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">IJCAI 2026</span> From Traits to Roles: Consensus-Guided Composition of Orthogonal Experts for Cooperative MARL. Yewei Zhou, <strong><u>Bin Zhang</u></strong>, Ying Zhou, Xuri Ge, Dapeng Li, Hangyu Mao, Pengjie Ren, Zhiwei Xu
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICAPS 2026</span> QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning. Yuanjun Li, <strong><u>Bin Zhang</u></strong>, Hao Chen, Zhouyang Jiang, Dapeng Li, Zhiwei Xu
@@ -125,11 +127,10 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICONIP 2022</span> [Learning to Coordinate via Multiple Graph Neural Networks](https://arxiv.org/abs/2104.03503). Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Yunpeng Bai, Dapeng Li, and Guoliang Fan
 
 # 🧑‍🎨 Preprint
+- `arXiv:2605.26646` [UnityMAS-O: A General RL Optimization Framework for LLM-Based Multi-Agent Systems](https://arxiv.org/pdf/2605.26646). Yiqun Chen, <strong><u>Bin Zhang</u></strong>, Biqing Qi, et al.
+- `arXiv:2603.16215` [CoMAI: A Collaborative Multi-Agent Framework for Robust and Equitable Interview Evaluation](https://arxiv.org/pdf/2603.16215). Gengxin Sun, Ruihao Yu, Liangyi Yin, Yunqi Yang, Bin Zhang, Zhiwei Xu
 - `arXiv:2504.12961` [QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning?](https://arxiv.org/abs/2504.12961?). Zhouyang Jiang, <strong><u>Bin Zhang</u></strong>, Yuanjun Li, Zhiwei Xu
-- `OpenReview` [Towards Better Branching Policies: Leveraging the Sequential Nature of Branch-and-Bound Tree](https://openreview.net/forum?id=fwJ1rRHT91). Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
-- `arXiv:2403.02951` [Benchmarking the text-to-sql capability of large language models: A comprehensive evaluation](https://arxiv.org/abs/2403.02951). <strong><u>Bin Zhang</u></strong>, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
--  [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
--  `arXiv:2408.09501` [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2408.09501). Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
+- `OpenReview` [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
 -  `arXiv:2404.17780` [Verco: Learning Coordinated Verbal Communication for Multi-agent Reinforcement Learning](https://arxiv.org/abs/2404.17780). Dapeng Li, Hang Dong, Lu Wang, Bo Qiao, Si Qin, Qingwei Lin, Dongmei Zhang, Qi Zhang, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
   
 
