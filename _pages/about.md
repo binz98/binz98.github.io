@@ -127,7 +127,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICONIP 2022</span> [Learning to Coordinate via Multiple Graph Neural Networks](https://arxiv.org/abs/2104.03503). Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Yunpeng Bai, Dapeng Li, and Guoliang Fan
 
 # 🧑‍🎨 Preprint
-- `arXiv:2605.26646` [UnityMAS-O: A General RL Optimization Framework for LLM-Based Multi-Agent Systems](https://arxiv.org/pdf/2605.26646). Yiqun Chen, <strong><u>Bin Zhang</u></strong>, Biqing Qi, et al.
+- `arXiv:2605.26646` [UnityMAS-O: A General RL Optimization Framework for LLM-Based Multi-Agent Systems](https://arxiv.org/pdf/2605.26646). Yiqun Chen, Yiqun Chen, Wei Yang, Erhan Zhang, Shijie Wang, Qi Liu, Zechun Niu, **Bin Zhang**, Haitao Li, Rui Li, Lingyong Yan, Jinyuan Feng, Biqing Qi, Xiaochi Wei, Yan Gao, Yi Wu, Yao Hu, Jiaxin Mao.
 - `arXiv:2603.16215` [CoMAI: A Collaborative Multi-Agent Framework for Robust and Equitable Interview Evaluation](https://arxiv.org/pdf/2603.16215). Gengxin Sun, Ruihao Yu, Liangyi Yin, Yunqi Yang, Bin Zhang, Zhiwei Xu
 - `arXiv:2504.12961` [QLLM: Do We Really Need a Mixing Network for Credit Assignment in Multi-Agent Reinforcement Learning?](https://arxiv.org/abs/2504.12961?). Zhouyang Jiang, <strong><u>Bin Zhang</u></strong>, Yuanjun Li, Zhiwei Xu
 - `OpenReview` [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
