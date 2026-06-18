@@ -30,31 +30,31 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
-- *2026.06*:  🎉🎉 **LeanRefiner** has been accepted by **AI for Math Workshop @ ICML 2026**!
-- *2026.05*: &nbsp;🎉🎉 Two **first-author** papers have been accepted by **CASE 2026**!
-- *2026.05*: &nbsp;🎉🎉 One paper has been accepted by **RLC 2026**!
-- *2026.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2026**!
-- *2026.02*: &nbsp;🎉🎉 One paper has been accepted by **ICAPS 2026**!
-- *2026.01*: &nbsp;🎉🎉 Two papers have been accepted by **ICLR 2026**!
-- *2025.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2026**!
-- *2025.11*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2026**!
-- *2025.05*: &nbsp;🎉🎉 One paper has been accepted by **ICML 2025**!
-- *2025.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2025**!
-- *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **TMLR** & **ICLR 2025 Workshop on DATA-FM**!
-- *2025.01*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **DASFAA 2025**!
-- *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAMAS 2025**!
-- *2024.12*: &nbsp;🎉🎉 One paper has been accepted by **AAAI 2025**!
-- *2024.10*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **EMNLP 2024 Industry Track**!
-- *2024.08*: &nbsp;🎉🎉 Two papers have been accepted by **ICONIP 2024**!
-- *2024.05*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **ICML 2024**!
-- *2024.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2024**!
-- *2024.03*: &nbsp;🎉🎉 One paper has been accepted by **IJCNN 2024**!
-- *2024.02*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **ICLR 2024 Workshop on LLM Agents**!
-- *2024.02*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted by **ICLR 2024 Workshop on LLM Agents**!
-- *2023.12*: &nbsp;🎉🎉 Two papers have been accepted by **AAMAS 2024**!
-- *2023.12*: &nbsp;🎉🎉 One paper has been accepted accepted by **ICASSP 2024**!
-- *2023.09*: &nbsp;🎉🎉 One paper has been accepted by **NeurIPS 2023**!
-- *2023.04*: &nbsp;🎉🎉 One **first-author** paper has been accepted by **IJCAI 2023**!
+- *2026.06*: &nbsp;🎉🎉 **LeanRefiner** has been accepted to **AI for Math Workshop @ ICML 2026**!
+- *2026.05*: &nbsp;🎉🎉 **SQLBench** and **LLaMAC** have been accepted to **CASE 2026**!
+- *2026.05*: &nbsp;🎉🎉 **SIDIFF** has been accepted to **RLC 2026**!
+- *2026.04*: &nbsp;🎉🎉 One paper has been accepted to **IJCAI 2026**!
+- *2026.02*: &nbsp;🎉🎉 One paper has been accepted to **ICAPS 2026**!
+- *2026.01*: &nbsp;🎉🎉 Two papers have been accepted to **ICLR 2026**!
+- *2025.12*: &nbsp;🎉🎉 One paper has been accepted to **AAMAS 2026**!
+- *2025.11*: &nbsp;🎉🎉 One paper has been accepted to **AAAI 2026**!
+- *2025.05*: &nbsp;🎉🎉 One paper has been accepted to **ICML 2025**!
+- *2025.04*: &nbsp;🎉🎉 One paper has been accepted to **IJCNN 2025**!
+- *2025.02*: &nbsp;🎉🎉 One paper has been accepted to **TMLR** & **ICLR 2025 Workshop on DATA-FM**!
+- *2025.01*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted to **DASFAA 2025**!
+- *2024.12*: &nbsp;🎉🎉 One paper has been accepted to **AAMAS 2025**!
+- *2024.12*: &nbsp;🎉🎉 One paper has been accepted to **AAAI 2025**!
+- *2024.10*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted to **EMNLP 2024 Industry Track**!
+- *2024.08*: &nbsp;🎉🎉 Two papers have been accepted to **ICONIP 2024**!
+- *2024.05*: &nbsp;🎉🎉 One **first-author** paper has been accepted to **ICML 2024**!
+- *2024.04*: &nbsp;🎉🎉 One paper has been accepted to **IJCAI 2024**!
+- *2024.03*: &nbsp;🎉🎉 One paper has been accepted to **IJCNN 2024**!
+- *2024.02*: &nbsp;🎉🎉 One **first-author** paper has been accepted to **ICLR 2024 Workshop on LLM Agents**!
+- *2024.02*: &nbsp;🎉🎉 One paper with co-first authorship has been accepted to **ICLR 2024 Workshop on LLM Agents**!
+- *2023.12*: &nbsp;🎉🎉 Two papers have been accepted to **AAMAS 2024**!
+- *2023.12*: &nbsp;🎉🎉 One paper has been accepted accepted to **ICASSP 2024**!
+- *2023.09*: &nbsp;🎉🎉 One paper has been accepted to **NeurIPS 2023**!
+- *2023.04*: &nbsp;🎉🎉 One **first-author** paper has been accepted to **IJCAI 2023**!
 
 # 📖 Experience
 - *2025.07 - Present* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/casicon.ico" alt="CAS" style="width:20px;height:20px;"> Assistant Professor in [Institute of Automation, Chinese Academy of Sciences](http://www.ia.cas.cn/)
