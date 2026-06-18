@@ -30,6 +30,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2026.06*:  🎉🎉 **LeanRefiner** has been accepted by **AI for Math Workshop @ ICML 2026**!
 - *2026.05*: &nbsp;🎉🎉 Two **first-author** papers have been accepted by **CASE 2026**!
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted by **RLC 2026**!
 - *2026.04*: &nbsp;🎉🎉 One paper has been accepted by **IJCAI 2026**!
@@ -91,6 +92,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AI for Math Workshop @ ICML 2026</span> LeanRefiner: Agentic Global-to-Local Optimization of Lean Proofs. Tian Cui, **Bin Zhang**, Changwei Wang, Zhiwei Xu, Zeyang Liu.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">CASE 2026</span> [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884). <strong><u>Bin Zhang</u></strong>, Hangyu Mao, Jingqing Ruan, et al.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">RLC 2026</span> Beyond Local Views: Global State Inference with Diffusion Models for Cooperative MARL. Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Shengtao Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">IJCAI 2026</span> From Traits to Roles: Consensus-Guided Composition of Orthogonal Experts for Cooperative MARL. Yewei Zhou, <strong><u>Bin Zhang</u></strong>, Ying Zhou, Xuri Ge, Dapeng Li, Hangyu Mao, Pengjie Ren, Zhiwei Xu
