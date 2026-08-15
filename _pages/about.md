@@ -30,6 +30,8 @@ If you are interested with my experience or research. Plese feel free to contact
 
 
 # 🔥 News
+- *2026.08*: &nbsp;🎉🎉 **AirBranching** has been accepted to **ESWA**!
+- *2026.08*: &nbsp;🎉🎉 **SGA-ACR** has been accepted to **ICONIP 2026**!
 - *2026.06*: &nbsp;🎉🎉 **LeanRefiner** has been accepted to **AI for Math Workshop @ ICML 2026**!
 - *2026.05*: &nbsp;🎉🎉 **SQLBench** and **LLaMAC** have been accepted to **CASE 2026**!
 - *2026.05*: &nbsp;🎉🎉 **SIDIFF** has been accepted to **RLC 2026**!
@@ -92,6 +94,8 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ESWA</span> Air-Branching: Learning to Branch via Adversarial Inverse Rein- forcement Learning in Mixed-Integer Linear Programming. Ce Zhang, **Bin Zhang**, Guoliang Fan.
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICONIP 2026</span> Subgoal Graph-Augmented Planning for LLM-Guided Open-World Reinforcement Learning. Shanwei Fan, **Bin Zhang**, Zhiwei Xu, Yingxuan Teng, Siqi Dai, Lin Cheng, Guoliang Fan.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AI for Math Workshop @ ICML 2026</span> LeanRefiner: Agentic Global-to-Local Optimization of Lean Proofs. Tian Cui, **Bin Zhang**, Changwei Wang, Zhiwei Xu, Zeyang Liu.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">CASE 2026</span> [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884). <strong><u>Bin Zhang</u></strong>, Hangyu Mao, Jingqing Ruan, et al.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">RLC 2026</span> [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative MARL](https://arxiv.org/abs/2408.09501). Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Shengtao Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
