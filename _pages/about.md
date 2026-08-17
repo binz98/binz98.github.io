@@ -35,9 +35,9 @@ If you are interested with my experience or research. Plese feel free to contact
 - *2026.06*: &nbsp;🎉🎉 **LeanRefiner** has been accepted to **AI for Math Workshop @ ICML 2026**!
 - *2026.05*: &nbsp;🎉🎉 **SQLBench** and **LLaMAC** have been accepted to **CASE 2026**!
 - *2026.05*: &nbsp;🎉🎉 **SIDIFF** has been accepted to **RLC 2026**!
-- *2026.04*: &nbsp;🎉🎉 One paper has been accepted to **IJCAI 2026**!
-- *2026.02*: &nbsp;🎉🎉 One paper has been accepted to **ICAPS 2026**!
-- *2026.01*: &nbsp;🎉🎉 Two papers have been accepted to **ICLR 2026**!
+- *2026.04*: &nbsp;🎉🎉 **DECOR** has been accepted to **IJCAI 2026**!
+- *2026.02*: &nbsp;🎉🎉 **QSIM** has been accepted to **ICAPS 2026**!
+- *2026.01*: &nbsp;🎉🎉 **PRGS** and **Mamba-Branching** have been accepted to **ICLR 2026**!
 - *2025.12*: &nbsp;🎉🎉 One paper has been accepted to **AAMAS 2026**!
 - *2025.11*: &nbsp;🎉🎉 One paper has been accepted to **AAAI 2026**!
 - *2025.05*: &nbsp;🎉🎉 One paper has been accepted to **ICML 2025**!
