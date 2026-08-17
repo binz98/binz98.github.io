@@ -94,7 +94,7 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 </div>
 </div>
 
-- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ESWA</span> Air-Branching: Learning to Branch via Adversarial Inverse Rein- forcement Learning in Mixed-Integer Linear Programming. Ce Zhang, **Bin Zhang**, Guoliang Fan.
+- <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ESWA</span> A[ir-Branching: Learning to Branch via Adversarial Inverse Rein- forcement Learning in Mixed-Integer Linear Programming](https://www.sciencedirect.com/science/article/pii/S0957417426029544). Ce Zhang, **Bin Zhang**, Guoliang Fan.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">ICONIP 2026</span> Subgoal Graph-Augmented Planning for LLM-Guided Open-World Reinforcement Learning. Shanwei Fan, **Bin Zhang**, Zhiwei Xu, Yingxuan Teng, Siqi Dai, Lin Cheng, Guoliang Fan.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">AI for Math Workshop @ ICML 2026</span> LeanRefiner: Agentic Global-to-Local Optimization of Lean Proofs. Tian Cui, **Bin Zhang**, Changwei Wang, Zhiwei Xu, Zeyang Liu.
 - <span style="background-color: #00369F; color: white; padding: 2px 6px; border-radius: 4px;">CASE 2026</span> [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884). <strong><u>Bin Zhang</u></strong>, Hangyu Mao, Jingqing Ruan, et al.
