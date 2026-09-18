@@ -152,15 +152,18 @@ Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpe
 - *2017-2020*, First-class Scholarship, Shandong University (3 times)
 
 # 🌠 Academic Services
+**Area Chair:**
+- International Conference on Learning Representations (ICLR 2027)
+  
 **Program Committee Member or Reviewer:**
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Applied Soft Computing Journal
 - International Conference on Learning Representations (ICLR 2024, 2025, 2026)
-- International Conference on Machine Learning (ICML 2024, 2025)
-- Annual Conference on Neural Information Processing Systems (NeurIPS 2025)
-- AAAI Conference on Artificial Intelligence (AAAI 2025, 2026)
-- International Joint Conference on Artificial Intelligence (IJCAI 2024, 2025)
-- International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025)
+- International Conference on Machine Learning (ICML 2024, 2025, 2026)
+- Annual Conference on Neural Information Processing Systems (NeurIPS 2025, 2026)
+- AAAI Conference on Artificial Intelligence (AAAI 2025, 2026, 2027)
+- International Joint Conference on Artificial Intelligence (IJCAI 2024, 2025, 2026)
+- International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025, 2026)
 - International World Wide Web Conference (WWW 2025)
 
 # 💻 Internships
