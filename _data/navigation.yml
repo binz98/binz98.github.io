@@ -1,4 +1,6 @@
 # main links links
+# Order mirrors the section order in _pages/about.md so the nav and the
+# scroll-spy follow the page top-to-bottom.
 main:
   - title: "About Me"
     url: "/#about-me"
@@ -6,17 +8,26 @@ main:
   - title: "News"
     url: "/#-news"
 
+  - title: "Experience"
+    url: "/#-experience"
+
+  - title: "Research Interest"
+    url: "/#-research-interest"
+
   - title: "Publications"
     url: "/#-publications"
+
+  - title: "Preprint"
+    url: "/#-preprint"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
-    url: "/#-educations"
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
+  - title: "Academic Services"
+    url: "/#-academic-services"
 
   - title: "Internships"
     url: "/#-internships"
+
+  # - title: "Invited Talks"
+  #   url: "/#-invited-talks"

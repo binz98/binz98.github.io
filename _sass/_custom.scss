@@ -1,0 +1,1761 @@
+/* ==========================================================================
+   CUSTOM DESIGN LAYER
+   Modern · minimal · academic. Card based visual system.
+   Loaded last from assets/css/main.scss so it can refine the base theme.
+   Written in plain CSS syntax so it can also be previewed standalone.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design tokens
+   -------------------------------------------------------------------------- */
+
+:root {
+  --c-ink:          #0a1424;
+  --c-ink-2:        #1d2a40;
+  --c-text:         #46536a;
+  --c-muted:        #7c8899;
+  --c-line:         #e9eef6;
+  --c-line-2:       #d7e0ee;
+  --c-bg:           #ffffff;
+  --c-bg-soft:      #f5f8fc;
+  --c-bg-elev:      #ffffff;
+  --c-glass:        rgba(255, 255, 255, 0.82);
+  --c-accent:       #1d5fd6;
+  --c-accent-deep:  #14418f;
+  --c-accent-soft:  rgba(29, 95, 214, 0.09);
+  --c-accent-line:  rgba(29, 95, 214, 0.26);
+  --c-violet:       #7a5cff;
+  --c-teal:         #0f9aa8;
+  --c-amber:        #b0700f;
+
+  --sh-xs: 0 1px 2px rgba(10, 20, 36, .04);
+  --sh-sm: 0 1px 2px rgba(10, 20, 36, .04), 0 2px 8px rgba(10, 20, 36, .045);
+  --sh-md: 0 2px 6px rgba(10, 20, 36, .05), 0 14px 30px -16px rgba(10, 20, 36, .22);
+  --sh-lg: 0 6px 16px rgba(10, 20, 36, .07), 0 28px 56px -22px rgba(10, 20, 36, .30);
+
+  --r-lg: 20px;
+  --r-md: 14px;
+  --r-sm: 10px;
+  --r-pill: 999px;
+
+  --ease: cubic-bezier(.22, .61, .36, 1);
+  --nav-h: 54px;
+
+  --f-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB",
+            "Microsoft YaHei", sans-serif;
+  --f-serif: "Newsreader", Georgia, "Times New Roman", "Songti SC", serif;
+  --f-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+            "Liberation Mono", monospace;
+}
+
+html[data-theme="dark"] {
+  --c-ink:          #e8eefb;
+  --c-ink-2:        #c7d3e8;
+  --c-text:         #a3b0c6;
+  --c-muted:        #7f8ca3;
+  --c-line:         #1e2a41;
+  --c-line-2:       #2b3a56;
+  --c-bg:           #080e1a;
+  --c-bg-soft:      #0d1424;
+  --c-bg-elev:      #101a2c;
+  --c-glass:        rgba(8, 14, 26, 0.82);
+  --c-accent:       #7aa2ff;
+  --c-accent-deep:  #9dbbff;
+  --c-accent-soft:  rgba(122, 162, 255, 0.13);
+  --c-accent-line:  rgba(122, 162, 255, 0.32);
+  --c-violet:       #a78bfa;
+  --c-teal:         #43c8d6;
+  --c-amber:        #e0b15a;
+
+  --sh-xs: 0 1px 2px rgba(0, 0, 0, .45);
+  --sh-sm: 0 1px 2px rgba(0, 0, 0, .45), 0 2px 8px rgba(0, 0, 0, .35);
+  --sh-md: 0 2px 6px rgba(0, 0, 0, .45), 0 14px 30px -16px rgba(0, 0, 0, .75);
+  --sh-lg: 0 6px 16px rgba(0, 0, 0, .5), 0 28px 56px -22px rgba(0, 0, 0, .85);
+}
+
+/* --------------------------------------------------------------------------
+   2. Global canvas & typography
+   -------------------------------------------------------------------------- */
+
+html {
+  scroll-padding-top: calc(var(--nav-h) + 26px);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--f-sans);
+  font-size: 15px;
+  line-height: 1.68;
+  letter-spacing: -0.003em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 520px;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    radial-gradient(680px 300px at 12% -8%, var(--c-accent-soft), transparent 70%),
+    radial-gradient(560px 260px at 88% -14%, rgba(122, 92, 255, 0.08), transparent 72%);
+}
+
+::selection {
+  background: var(--c-accent);
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--c-ink);
+  font-family: var(--f-sans);
+  font-weight: 700;
+  letter-spacing: -0.018em;
+}
+
+hr {
+  border-top: 1px solid var(--c-line);
+}
+
+a {
+  color: var(--c-accent);
+}
+
+.page__content a {
+  text-decoration: underline;
+  text-decoration-color: var(--c-accent-line);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color .2s var(--ease), text-decoration-color .2s var(--ease);
+}
+
+.page__content a:hover {
+  color: var(--c-accent-deep);
+  text-decoration-color: currentColor;
+}
+
+.page__content a:hover img {
+  box-shadow: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-line-2) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--c-line-2);
+  border: 3px solid var(--c-bg);
+  border-radius: var(--r-pill);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--c-muted);
+}
+
+/* --------------------------------------------------------------------------
+   3. Layout shell
+   -------------------------------------------------------------------------- */
+
+#main {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.6em;
+  padding-left: 1.35em;
+  padding-right: 1.35em;
+}
+
+@media (min-width: 925px) {
+  #main {
+    display: grid;
+    grid-template-columns: 236px minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+    max-width: 1220px;
+  }
+
+  /* clearfix pseudo elements would become grid items */
+  #main::before,
+  #main::after {
+    display: none;
+  }
+
+  #main > .sidebar,
+  #main > .page {
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    min-width: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Masthead
+   -------------------------------------------------------------------------- */
+
+.masthead {
+  background-color: var(--c-glass);
+  border-bottom: 1px solid var(--c-line);
+  -webkit-backdrop-filter: saturate(160%) blur(14px);
+  backdrop-filter: saturate(160%) blur(14px);
+  box-shadow: none;
+  transition: box-shadow .3s var(--ease), border-color .3s var(--ease);
+}
+
+.masthead.is-scrolled {
+  border-bottom-color: var(--c-line-2);
+  box-shadow: 0 10px 30px -22px rgba(10, 20, 36, .55);
+}
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+  gap: .5em;
+  padding: .42em 1.35em;
+  max-width: 1220px;
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.masthead__actions {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: .4em;
+}
+
+/* brand */
+.site-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .55em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.site-brand__mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  border-radius: 9px;
+  background: var(--c-accent);
+  color: #fff;
+  font-size: .78em;
+  font-weight: 800;
+  letter-spacing: .02em;
+  box-shadow: 0 6px 16px -8px rgba(29, 95, 214, .95);
+}
+
+.site-brand__label {
+  font-size: .98rem;
+  letter-spacing: -0.01em;
+  color: var(--c-ink);
+}
+
+/* nav */
+.greedy-nav {
+  background: transparent;
+  min-width: 0;
+}
+
+/* NOTE: ul.visible-links must keep the theme's shrink-wrapping `display: table`
+   because the greedy-nav script measures $vlinks.width() to decide how many
+   items fit. A block/flex ul would always report the nav width and make the
+   script recurse until the stack overflows. */
+
+.greedy-nav a {
+  display: block;
+  margin: 0 .1rem;
+  padding: .42rem .78rem;
+  border-radius: var(--r-pill);
+  color: var(--c-muted);
+  font-size: .875rem;
+  font-weight: 550;
+  letter-spacing: -0.005em;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color .2s var(--ease), background-color .2s var(--ease);
+}
+
+.greedy-nav a:hover {
+  color: var(--c-ink);
+  background: var(--c-accent-soft);
+}
+
+.greedy-nav a.is-active {
+  color: var(--c-accent);
+  background: var(--c-accent-soft);
+}
+
+/* theme underline animation is replaced by the pill */
+.greedy-nav .visible-links a::before {
+  display: none;
+}
+
+.greedy-nav .visible-links li:first-child {
+  font-weight: inherit;
+}
+
+.greedy-nav .visible-links .masthead__brand-item a {
+  margin: 0 .35rem 0 0;
+  padding: 0;
+  background: none;
+}
+
+.greedy-nav .visible-links .masthead__brand-item a:hover {
+  background: none;
+}
+
+.greedy-nav .hidden-links {
+  top: calc(100% + .55rem);
+  right: 0;
+  margin-top: 0;
+  padding: .35rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-lg);
+  overflow: hidden;
+}
+
+.greedy-nav .hidden-links::before,
+.greedy-nav .hidden-links::after {
+  display: none;
+}
+
+.greedy-nav .hidden-links li {
+  border-bottom: 1px solid var(--c-line);
+}
+
+.greedy-nav .hidden-links a {
+  margin: 0;
+  padding: .6rem 1rem;
+  border-radius: var(--r-sm);
+  font-size: .9rem;
+}
+
+.greedy-nav .hidden-links a:hover {
+  color: var(--c-accent);
+  background: var(--c-accent-soft);
+}
+
+.greedy-nav button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-sm);
+  background: var(--c-bg-elev);
+  cursor: pointer;
+  transition: border-color .2s var(--ease), background-color .2s var(--ease);
+}
+
+.greedy-nav button:hover {
+  border-color: var(--c-accent-line);
+  background: var(--c-accent-soft);
+}
+
+.navicon {
+  position: relative;
+  width: 18px;
+  height: 2px;
+  background: var(--c-ink-2);
+  border-radius: 2px;
+  transition: background-color .2s var(--ease);
+}
+
+.navicon::before,
+.navicon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 18px;
+  height: 2px;
+  background: var(--c-ink-2);
+  border-radius: 2px;
+  transition: transform .25s var(--ease);
+}
+
+.navicon::before { top: -6px; }
+.navicon::after  { top: 6px; }
+
+/* --------------------------------------------------------------------------
+   5. Sidebar profile card
+   -------------------------------------------------------------------------- */
+
+@media (min-width: 925px) {
+  .sidebar.sticky {
+    position: sticky;
+    top: calc(var(--nav-h) + 16px);
+  }
+}
+
+.profile_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 1.35rem 1.15rem 1.3rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+
+.sidebar .author__avatar {
+  display: flex;
+  justify-content: center;
+  /* the theme markup puts whitespace text nodes around the image; a flexible
+     box plus zero line-height keeps the wrapper exactly the photo's height */
+  line-height: 0;
+  width: auto;
+  height: auto;
+  margin: 0 0 1rem;
+  padding: 0;
+  border-radius: 18px;
+  background: none;
+  box-shadow: 0 14px 30px -20px rgba(10, 20, 36, .5);
+  transition: transform .45s var(--ease), box-shadow .45s var(--ease);
+}
+
+.sidebar .author__avatar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 34px -20px rgba(10, 20, 36, .55);
+}
+
+.sidebar .author__avatar img {
+  display: block;
+  width: 152px;
+  height: 152px;
+  max-width: 100%;
+  min-width: 0;
+  /* the theme puts `margin-bottom: 15px` on .author__avatar, and the image
+     carries that class too — clear it or the wrapper grows a phantom band */
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 18px;
+  background: transparent;
+  object-fit: cover;
+}
+
+.sidebar .author__content {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.sidebar .author__name {
+  margin: 0 0 .35rem;
+  font-size: 1.32rem;
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--c-ink);
+}
+
+.sidebar .author__bio {
+  margin: 0 auto .9rem;
+  display: inline-block;
+  max-width: 100%;
+  padding: .26rem .7rem;
+  border: 1px solid var(--c-accent-line);
+  border-radius: var(--r-pill);
+  background: var(--c-accent-soft);
+  color: var(--c-accent);
+  font-size: .76rem;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: .01em;
+  white-space: normal;
+}
+
+.sidebar .author__urls-wrapper {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding-top: .95rem;
+  border-top: 1px dashed var(--c-line-2);
+}
+
+/* jQuery toggles display on .author__urls, so style the rows, not the list */
+.sidebar .author__urls {
+  position: static;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  text-align: left;
+}
+
+.sidebar .author__urls::before,
+.sidebar .author__urls::after {
+  display: none;
+}
+
+.sidebar .author__urls > li {
+  display: flex;
+  align-items: center;
+  /* every row — linked or not — gets the same box, otherwise the <a> padding
+     pushes the icon right and makes those rows taller than the plain ones */
+  margin: 0 0 .28rem;
+  padding: .3rem .35rem;
+  border-radius: var(--r-sm);
+  color: var(--c-muted);
+  font-size: .82rem;
+  line-height: 1.5;
+  white-space: normal;
+}
+
+.sidebar .author__urls > li:hover {
+  background: var(--c-bg-soft);
+}
+
+.sidebar .author__urls > li > div {
+  width: 100%;
+  margin: 0 0 .7rem;
+  color: var(--c-muted);
+  font-size: .82rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.sidebar .author__urls > li .fa,
+.sidebar .author__urls > li .fas,
+.sidebar .author__urls > li .far,
+.sidebar .author__urls > li .fab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: .45rem;
+  border-radius: 8px;
+  background: var(--c-accent-soft);
+  color: var(--c-accent);
+  font-size: .74rem;
+  vertical-align: middle;
+}
+
+.sidebar .author__urls a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--c-text);
+  font-size: .82rem;
+  text-decoration: none;
+  border-radius: var(--r-sm);
+  transition: color .2s var(--ease);
+}
+
+.sidebar .author__urls a:hover {
+  color: var(--c-accent);
+  text-decoration: none;
+}
+
+/* compact icon row on small screens */
+.author__urls_sm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  padding: .4rem 0 0;
+}
+
+.author__urls_sm a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-sm);
+  background: var(--c-bg-elev);
+  color: var(--c-muted);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: transform .25s var(--ease), color .2s var(--ease),
+              border-color .2s var(--ease);
+}
+
+.author__urls_sm a:hover {
+  transform: translateY(-2px);
+  color: var(--c-accent);
+  border-color: var(--c-accent-line);
+  text-decoration: none;
+}
+
+@media (min-width: 925px) {
+  /* the theme hides this row on wide screens; restate it after the rules above */
+  .author__urls_sm {
+    display: none;
+  }
+}
+
+@media (max-width: 924px) {
+  .profile_box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    padding: 1.1rem 1.2rem;
+  }
+
+  .sidebar .author__avatar {
+    margin: 0 1rem 0 0;
+    flex: 0 0 auto;
+    border-radius: 16px;
+  }
+
+  .sidebar .author__avatar img {
+    width: 82px;
+    height: 82px;
+    border-radius: 12px;
+  }
+
+  .sidebar .author__content {
+    flex: 1 1 auto;
+  }
+
+  .sidebar .author__bio {
+    margin-bottom: 0;
+  }
+
+  .sidebar .author__urls-wrapper {
+    flex: 0 0 auto;
+    width: auto;
+    padding-top: 0;
+    border-top: 0;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Hero
+   -------------------------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  margin: 0 0 2.6rem;
+  padding: 1.7rem 1.8rem 1.6rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-lg);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-md);
+  overflow: hidden;
+}
+
+.hero::after {
+  content: none;
+}
+
+.hero > * {
+  position: relative;
+}
+
+.hero__top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: .7rem 1.2rem;
+  margin: 0 0 1.15rem;
+}
+
+/* affiliation logos: the institute and the state key laboratory */
+.hero__logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-left: auto;
+}
+
+.hero__logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* uniform plate height keeps the row visually level even though the
+     lab wordmark is far wider than the institute emblem */
+  height: 62px;
+  padding: 0 .6rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-sm);
+  /* the logos ship dark ink artwork, so keep a white plate in both themes */
+  background: #fff;
+  box-shadow: var(--sh-xs);
+  transition: transform .25s var(--ease), border-color .25s var(--ease),
+              box-shadow .25s var(--ease);
+}
+
+.hero__logo:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+.hero__logo img {
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.hero__logo--institute img {
+  height: 44px;
+}
+
+/* 7:1 wordmark, so size it by height and let it run wide */
+.hero__logo--lab img {
+  height: 30px;
+}
+
+.hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  margin: 0 !important;
+  padding: .28rem .7rem .28rem .5rem;
+  border: 1px solid var(--c-accent-line);
+  border-radius: var(--r-pill);
+  background: var(--c-bg-elev);
+  color: var(--c-accent);
+  font-size: .75rem;
+  font-weight: 600;
+  letter-spacing: .005em;
+}
+
+.hero__eyebrow::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c-teal);
+  box-shadow: 0 0 0 4px rgba(15, 154, 168, .16);
+}
+
+.hero > p:first-of-type {
+  font-size: 1.06rem;
+  line-height: 1.6;
+  color: var(--c-ink-2);
+}
+
+.hero p {
+  font-size: 1rem;
+}
+
+.hero strong {
+  color: var(--c-ink);
+  font-weight: 650;
+}
+
+.hero ul {
+  margin: .9rem 0 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.hero ul > li {
+  position: relative;
+  margin-bottom: .5rem;
+  padding-left: 1.5rem;
+  font-size: .96rem;
+}
+
+.hero ul > li::before {
+  content: "";
+  position: absolute;
+  left: .18rem;
+  top: .58rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: var(--c-accent);
+  transform: rotate(45deg);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .55rem;
+  margin: 1.25rem 0 0 !important;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--c-line);
+}
+
+.hero__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  padding: .5rem .95rem;
+  border: 1px solid var(--c-line-2);
+  border-radius: var(--r-pill);
+  background: var(--c-bg-elev);
+  color: var(--c-text) !important;
+  font-size: .875rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  box-shadow: var(--sh-xs);
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease),
+              border-color .25s var(--ease), color .2s var(--ease);
+}
+
+.hero__btn i {
+  color: var(--c-accent);
+  font-size: .95em;
+}
+
+.hero__btn:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-accent-line);
+  color: var(--c-accent) !important;
+  box-shadow: var(--sh-md);
+}
+
+.hero__btn--primary {
+  border-color: transparent;
+  background: var(--c-accent);
+  color: #fff !important;
+}
+
+.hero__btn--primary i {
+  color: #fff;
+}
+
+.hero__btn--primary:hover {
+  color: #fff !important;
+  box-shadow: 0 16px 32px -16px rgba(29, 95, 214, .95);
+}
+
+/* --------------------------------------------------------------------------
+   7. Section headings
+   -------------------------------------------------------------------------- */
+
+.page__content > h1 {
+  position: relative;
+  display: block;
+  margin: 3.1rem 0 1.2rem;
+  padding: 0 0 .62rem 1.05rem;
+  border-bottom: 0;
+  background-image: linear-gradient(90deg, var(--c-line-2) 0%, transparent 72%);
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 100% 1px;
+  font-size: 1.5rem;
+  font-weight: 750;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: var(--c-ink);
+  scroll-margin-top: calc(var(--nav-h) + 26px);
+}
+
+/* replaces the theme's scroll-offset pseudo element with an accent bar */
+.page__content > h1::before {
+  content: "";
+  display: inline-block;
+  position: static;
+  width: 5px;
+  height: .92em;
+  margin: 0 .5rem 0 0;
+  border-radius: 3px;
+  background: var(--c-accent);
+  vertical-align: -.08em;
+}
+
+/* --------------------------------------------------------------------------
+   8. News timeline
+   -------------------------------------------------------------------------- */
+
+.page__content > [id="-news"] + ul {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  list-style: none;
+}
+
+.page__content > [id="-news"] + ul::before {
+  content: "";
+  position: absolute;
+  left: 4.5px;
+  top: .7rem;
+  bottom: .7rem;
+  width: 1px;
+  background: linear-gradient(180deg, var(--c-accent-line), transparent 92%);
+}
+
+.page__content > [id="-news"] + ul > li {
+  position: relative;
+  margin: 0;
+  padding: .42rem .8rem .42rem 0;
+  border-radius: var(--r-sm);
+  font-size: .94rem;
+  line-height: 1.62;
+  transition: background-color .2s var(--ease), transform .2s var(--ease);
+}
+
+.page__content > [id="-news"] + ul > li:hover {
+  background: var(--c-bg-soft);
+  transform: translateX(2px);
+}
+
+.page__content > [id="-news"] + ul > li::before {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  top: .95rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--c-bg);
+  border: 2px solid var(--c-accent);
+  box-shadow: 0 0 0 3px var(--c-accent-soft);
+}
+
+.page__content > [id="-news"] + ul > li > em:first-child {
+  display: inline-block;
+  min-width: 4.6em;
+  margin-right: .55em;
+  padding: .06em .5em;
+  border-radius: var(--r-pill);
+  background: var(--c-accent-soft);
+  color: var(--c-accent);
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .01em;
+  text-align: center;
+}
+
+.page__content > [id="-news"] + ul > li strong {
+  color: var(--c-ink);
+  font-weight: 650;
+}
+
+/* Only the ten most recent entries show at first; the toggle below reveals
+   the rest. Without JavaScript the class is never added, so every item stays
+   visible. */
+.page__content > [id="-news"] + ul.is-collapsed > li:nth-child(n + 11) {
+  display: none;
+}
+
+.news-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  margin: .95rem 0 0;
+  padding: .5rem 1.05rem;
+  border: 1px solid var(--c-line-2);
+  border-radius: var(--r-pill);
+  background: var(--c-bg-elev);
+  color: var(--c-ink-2);
+  font-family: var(--f-sans);
+  font-size: .845rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  box-shadow: var(--sh-xs);
+  transition: color .2s var(--ease), border-color .2s var(--ease),
+              box-shadow .25s var(--ease);
+}
+
+.news-toggle:hover {
+  color: var(--c-accent);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+.news-toggle i {
+  font-size: .78em;
+  color: var(--c-accent);
+  transition: transform .3s var(--ease);
+}
+
+.news-toggle.is-open i {
+  transform: rotate(180deg);
+}
+
+/* --------------------------------------------------------------------------
+   9. Experience timeline
+   -------------------------------------------------------------------------- */
+
+.page__content > [id="-experience"] + ul {
+  position: relative;
+  margin: 0;
+  padding: 0 0 0 1.35rem;
+  list-style: none;
+}
+
+.page__content > [id="-experience"] + ul::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1rem;
+  bottom: 1rem;
+  width: 1px;
+  background: linear-gradient(180deg, var(--c-accent-line), transparent 88%);
+}
+
+.page__content > [id="-experience"] + ul > li {
+  position: relative;
+  margin: 0 0 .5rem;
+  padding: .85rem 1rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-xs);
+  font-size: .95rem;
+  line-height: 1.6;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease),
+              border-color .3s var(--ease);
+}
+
+.page__content > [id="-experience"] + ul > li:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+.page__content > [id="-experience"] + ul > li::before {
+  content: "";
+  position: absolute;
+  left: -1.35rem;
+  top: 1.15rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--c-bg);
+  border: 2px solid var(--c-accent);
+  box-shadow: 0 0 0 3px var(--c-accent-soft);
+}
+
+.page__content > [id="-experience"] + ul > li > em:first-child {
+  display: inline-block;
+  /* fixed width so the institution icons line up down the column */
+  width: 10.6em;
+  margin-right: .5em;
+  padding: .05em .55em;
+  border-radius: var(--r-sm);
+  background: var(--c-bg-soft);
+  border: 1px solid var(--c-line);
+  color: var(--c-ink-2);
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .005em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.page__content > [id="-experience"] + ul > li img {
+  width: 19px;
+  height: 19px;
+  margin-right: .3em;
+  border-radius: 5px;
+  vertical-align: -4px;
+}
+
+.page__content > [id="-experience"] + ul > li strong {
+  color: var(--c-ink);
+}
+
+/* --------------------------------------------------------------------------
+   10. Research interest tags
+   -------------------------------------------------------------------------- */
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: .8rem;
+  margin: 0;
+}
+
+.interest-card {
+  padding: 1.05rem 1.15rem 1.1rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-sm);
+  transition: transform .28s var(--ease), border-color .28s var(--ease),
+              box-shadow .28s var(--ease);
+}
+
+.interest-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+.interest-card h3 {
+  margin: 0 0 .45rem;
+  padding-left: .75rem;
+  border-left: 3px solid var(--c-accent);
+  color: var(--c-ink);
+  font-size: .98rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.interest-card p {
+  margin: 0;
+  color: var(--c-muted);
+  font-size: .85rem;
+  line-height: 1.66;
+}
+
+/* --------------------------------------------------------------------------
+   11. Publications
+   -------------------------------------------------------------------------- */
+
+.paper-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.35rem;
+  margin: 0 0 1.15rem;
+  padding: 1.25rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-lg);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-sm);
+  transition: transform .35s var(--ease), box-shadow .35s var(--ease),
+              border-color .35s var(--ease);
+}
+
+.paper-box:hover {
+  transform: translateY(-3px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-lg);
+}
+
+/* An empty image slot collapses, letting the text span the full card.
+   Drop an <img> in here later and the card becomes two columns. */
+.paper-box .paper-box-image {
+  position: relative;
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  /* the base theme stacks text first on small screens; keep the markup order */
+  order: 1;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-soft);
+  overflow: hidden;
+}
+
+.paper-box .paper-box-image:empty {
+  display: none;
+}
+
+.paper-box .paper-box-image img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: cover;
+}
+
+.paper-box .paper-box-text {
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  order: 2;
+  padding: 0;
+  font-size: .95rem;
+}
+
+/* Citation layout inside a card:
+   p1 = title · p2 = authors · p3 = venue (+ links) · p4 = summary */
+.paper-box .paper-box-text > p:first-of-type {
+  margin: 0 0 .5rem;
+  font-family: var(--f-serif);
+  font-size: 1.14rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.008em;
+}
+
+.paper-box .paper-box-text > p:first-of-type a {
+  color: var(--c-ink);
+  text-decoration: none;
+}
+
+.paper-box .paper-box-text > p:first-of-type a:hover {
+  color: var(--c-accent);
+}
+
+.paper-box .paper-box-text > p:nth-of-type(2) {
+  margin: 0 0 .5rem;
+  color: var(--c-muted);
+  font-size: .855rem;
+  line-height: 1.62;
+}
+
+.paper-box .paper-box-text > p:nth-of-type(3) {
+  margin: 0 0 .8rem;
+  font-size: .85rem;
+  line-height: 1.75;
+}
+
+.pub-venue {
+  margin-right: .5rem;
+  color: var(--c-accent);
+  font-size: .8rem;
+  font-weight: 650;
+  font-style: italic;
+  letter-spacing: .01em;
+}
+
+.paper-box .paper-box-text > p:nth-of-type(3) a {
+  display: inline-flex;
+  align-items: center;
+  padding: .26rem .72rem;
+  border: 1px solid var(--c-line-2);
+  border-radius: var(--r-pill);
+  background: var(--c-bg-soft);
+  color: var(--c-ink-2);
+  font-size: .78rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s var(--ease), border-color .2s var(--ease),
+              background-color .2s var(--ease);
+}
+
+.paper-box .paper-box-text > p:nth-of-type(3) a:hover {
+  color: var(--c-accent);
+  border-color: var(--c-accent-line);
+  background: var(--c-accent-soft);
+}
+
+/* the summary sits under a hairline, like a reference abstract */
+.paper-box .paper-box-text > p:nth-of-type(4) {
+  margin: 0;
+  padding: .8rem 0 0;
+  border-top: 1px dashed var(--c-line-2);
+  color: var(--c-text);
+  font-size: .885rem;
+  line-height: 1.68;
+}
+
+.paper-box .badge {
+  position: absolute;
+  top: .55rem;
+  left: .55rem;
+  z-index: 2;
+  margin: 0;
+  padding: .28rem .62rem;
+  border-radius: var(--r-pill);
+  background: rgba(10, 20, 36, .72);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+/* the author's own name stands out everywhere */
+.page__content strong u,
+.page__content u {
+  border-bottom: 0;
+  color: var(--c-accent);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.page__content em {
+  color: var(--c-ink-2);
+}
+
+/* --------------------------------------------------------------------------
+   12. Preprints
+   -------------------------------------------------------------------------- */
+
+.page__content > [id="-preprint"] + ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content > [id="-preprint"] + ul > li {
+  position: relative;
+  margin: 0 0 .5rem;
+  padding: .8rem 1rem;
+  border: 1px solid var(--c-line);
+  border-left: 3px solid var(--c-teal);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-xs);
+  font-size: .905rem;
+  line-height: 1.64;
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+}
+
+.page__content > [id="-preprint"] + ul > li:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sh-md);
+}
+
+.page__content li > code,
+.page__content p > code {
+  padding: .16em .5em;
+  border: 1px solid var(--c-line-2);
+  border-radius: var(--r-sm);
+  background: var(--c-bg-soft);
+  box-shadow: none;
+  color: var(--c-teal);
+  font-family: var(--f-mono);
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.page__content li > code::before,
+.page__content li > code::after,
+.page__content p > code::before,
+.page__content p > code::after {
+  content: none;
+}
+
+/* --------------------------------------------------------------------------
+   13. Honors and awards
+   -------------------------------------------------------------------------- */
+
+.page__content > [id="-honors-and-awards"] + ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: .55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content > [id="-honors-and-awards"] + ul > li {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: .72rem .9rem .72rem 2.15rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-xs);
+  font-size: .875rem;
+  line-height: 1.5;
+  color: var(--c-text);
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease),
+              border-color .25s var(--ease);
+}
+
+.page__content > [id="-honors-and-awards"] + ul > li:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+.page__content > [id="-honors-and-awards"] + ul > li::before {
+  content: "\f091";
+  position: absolute;
+  left: .75rem;
+  top: .72rem;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Solid", "FontAwesome";
+  font-size: .82rem;
+  font-weight: 900;
+  color: var(--c-amber);
+  line-height: 1.5;
+}
+
+.page__content > [id="-honors-and-awards"] + ul > li > em:first-child {
+  display: inline-block;
+  margin-right: .45em;
+  padding: .04em .5em;
+  border-radius: var(--r-sm);
+  background: var(--c-accent-soft);
+  color: var(--c-accent);
+  font-size: .74rem;
+  font-style: normal;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+
+/* --------------------------------------------------------------------------
+   14. Academic services
+   -------------------------------------------------------------------------- */
+
+.page__content > [id="-academic-services"] ~ p {
+  margin: 1.15rem 0 .6rem;
+  color: var(--c-ink-2);
+  font-size: .84rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.page__content > [id="-academic-services"] ~ ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: .5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page__content > [id="-academic-services"] ~ ul > li {
+  position: relative;
+  margin: 0;
+  padding: .62rem .9rem .62rem 2rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-xs);
+  color: var(--c-text);
+  font-size: .84rem;
+  line-height: 1.55;
+  transition: border-color .22s var(--ease), box-shadow .22s var(--ease),
+              transform .22s var(--ease);
+}
+
+.page__content > [id="-academic-services"] ~ ul > li::before {
+  content: "\f058";
+  position: absolute;
+  left: .8rem;
+  top: .66rem;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Solid", "FontAwesome";
+  font-size: .74rem;
+  font-weight: 900;
+  color: var(--c-accent);
+}
+
+.page__content > [id="-academic-services"] ~ ul > li:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+/* --------------------------------------------------------------------------
+   15. Internships (kept after the services rules so the sibling-based
+       services selector cannot leak into this list)
+   -------------------------------------------------------------------------- */
+
+.page__content > [id="-internships"] + ul {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0 0 0 1.35rem;
+  list-style: none;
+}
+
+.page__content > [id="-internships"] + ul::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1rem;
+  bottom: 1rem;
+  width: 1px;
+  background: linear-gradient(180deg, var(--c-accent-line), transparent 88%);
+}
+
+.page__content > [id="-internships"] + ul > li {
+  position: relative;
+  margin: 0 0 .5rem;
+  padding: .85rem 1rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-md);
+  background: var(--c-bg-elev);
+  box-shadow: var(--sh-xs);
+  font-size: .95rem;
+  line-height: 1.6;
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease),
+              border-color .3s var(--ease);
+}
+
+.page__content > [id="-internships"] + ul > li:hover {
+  transform: translateY(-2px);
+  border-color: var(--c-accent-line);
+  box-shadow: var(--sh-md);
+}
+
+.page__content > [id="-internships"] + ul > li::before {
+  content: "";
+  position: absolute;
+  left: -1.35rem;
+  top: 1.15rem;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--c-bg);
+  border: 2px solid var(--c-accent);
+  box-shadow: 0 0 0 3px var(--c-accent-soft);
+}
+
+.page__content > [id="-internships"] + ul > li > em:first-child {
+  display: inline-block;
+  margin-right: .5em;
+  padding: .05em .55em;
+  border-radius: var(--r-sm);
+  background: var(--c-bg-soft);
+  border: 1px solid var(--c-line);
+  color: var(--c-ink-2);
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .005em;
+  white-space: nowrap;
+}
+
+.page__content > [id="-internships"] + ul > li strong {
+  color: var(--c-ink);
+}
+
+/* --------------------------------------------------------------------------
+   16. Floating controls
+   -------------------------------------------------------------------------- */
+
+/* The layout ships no footer, so the document used to end right after the last
+   list: the short trailing sections then could not scroll up past the sticky
+   nav probe and the scroll-spy could not tell Academic Services from
+   Internships. Give the content enough trailing room that every section can
+   reach the probe, scaling with the viewport so it holds on tall windows too. */
+@media (min-height: 580px) {
+  .page__content {
+    padding-bottom: calc(100vh - 580px);
+  }
+}
+
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  border: 1px solid var(--c-line);
+  border-radius: var(--r-sm);
+  background: var(--c-bg-elev);
+  color: var(--c-muted);
+  font-size: .95rem;
+  cursor: pointer;
+  transition: color .2s var(--ease), border-color .2s var(--ease),
+              background-color .2s var(--ease);
+}
+
+.icon-btn:hover {
+  color: var(--c-accent);
+  border-color: var(--c-accent-line);
+  background: var(--c-accent-soft);
+}
+
+.icon-btn .fa-sun { display: none; }
+
+html[data-theme="dark"] .icon-btn .fa-sun { display: inline; }
+html[data-theme="dark"] .icon-btn .fa-moon { display: none; }
+
+.to-top {
+  position: fixed;
+  right: 1.4rem;
+  bottom: 1.4rem;
+  z-index: 40;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--c-line);
+  background: var(--c-bg-elev);
+  color: var(--c-ink-2);
+  box-shadow: var(--sh-md);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity .3s var(--ease), transform .3s var(--ease),
+              visibility .3s var(--ease), color .2s var(--ease),
+              border-color .2s var(--ease);
+}
+
+.to-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.to-top:hover {
+  color: var(--c-accent);
+  border-color: var(--c-accent-line);
+}
+
+/* --------------------------------------------------------------------------
+   17. Responsive, motion & print
+   -------------------------------------------------------------------------- */
+
+@media (min-width: 925px) {
+  .paper-box {
+    gap: 1.6rem;
+    padding: 1.4rem;
+  }
+
+  .paper-box .paper-box-image {
+    flex: 0 0 38%;
+    max-width: 38%;
+  }
+
+  .paper-box .paper-box-text {
+    flex: 1 1 0;
+    width: auto;
+    max-width: none;
+  }
+}
+
+@media (max-width: 924px) {
+  .page__content > h1 {
+    margin-top: 2.4rem;
+    font-size: 1.32rem;
+  }
+
+  .hero {
+    padding: 1.3rem 1.15rem;
+  }
+
+  .hero__actions {
+    gap: .45rem;
+  }
+
+  .hero__btn {
+    padding: .45rem .8rem;
+    font-size: .83rem;
+  }
+
+  .hero__logos {
+    margin-left: 0;
+    gap: .4rem;
+  }
+
+  .hero__logo {
+    height: 52px;
+    padding: 0 .5rem;
+  }
+
+  .hero__logo--institute img {
+    height: 36px;
+  }
+
+  .hero__logo--lab img {
+    height: 24px;
+  }
+
+  .interest-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page__content > [id="-experience"] + ul > li > em:first-child {
+    width: 9.6em;
+  }
+
+  .page__content > [id="-honors-and-awards"] + ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .page__content > [id="-academic-services"] ~ ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14.5px;
+  }
+
+  #main {
+    margin-top: 1.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .masthead__inner-wrap {
+    padding: .4em 1em;
+  }
+
+  .site-brand__label {
+    display: none;
+  }
+
+  .page__content > [id="-news"] + ul > li > em:first-child {
+    display: block;
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 0;
+    margin: 0 0 .2em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  .hero::after,
+  .to-top,
+  .masthead__actions {
+    display: none !important;
+  }
+
+  .hero,
+  .paper-box,
+  .profile_box {
+    box-shadow: none;
+    border-color: #ddd;
+  }
+}
