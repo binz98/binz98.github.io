@@ -1208,8 +1208,10 @@ a {
   font-size: .95rem;
 }
 
-/* Citation layout inside a card:
-   p1 = title · p2 = authors · p3 = venue (+ links) · p4 = summary */
+/* Citation layout inside a card. The venue is an overlay badge on the image, so
+   cards with an image may drop the venue row entirely and end up with three
+   paragraphs instead of four — hence `:last-of-type` rather than a fixed index.
+   p1 = title · p2 = authors · p3 = links/venue (when present) · last = summary */
 .paper-box .paper-box-text > p:first-of-type {
   margin: 0 0 .5rem;
   font-family: var(--f-serif);
@@ -1235,7 +1237,7 @@ a {
   line-height: 1.62;
 }
 
-.paper-box .paper-box-text > p:nth-of-type(3) {
+.paper-box .paper-box-text > p:nth-of-type(3):not(:last-of-type) {
   margin: 0 0 .8rem;
   font-size: .85rem;
   line-height: 1.75;
@@ -1250,7 +1252,7 @@ a {
   letter-spacing: .01em;
 }
 
-.paper-box .paper-box-text > p:nth-of-type(3) a {
+.paper-box .paper-box-text > p:nth-of-type(3):not(:last-of-type) a {
   display: inline-flex;
   align-items: center;
   padding: .26rem .72rem;
@@ -1265,14 +1267,14 @@ a {
               background-color .2s var(--ease);
 }
 
-.paper-box .paper-box-text > p:nth-of-type(3) a:hover {
+.paper-box .paper-box-text > p:nth-of-type(3):not(:last-of-type) a:hover {
   color: var(--c-accent);
   border-color: var(--c-accent-line);
   background: var(--c-accent-soft);
 }
 
 /* the summary sits under a hairline, like a reference abstract */
-.paper-box .paper-box-text > p:nth-of-type(4) {
+.paper-box .paper-box-text > p:last-of-type:not(:first-of-type):not(:nth-of-type(2)) {
   margin: 0;
   padding: .8rem 0 0;
   border-top: 1px dashed var(--c-line-2);
@@ -1293,11 +1295,16 @@ a {
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
   color: #fff;
-  font-size: .66rem;
+  font-size: .68rem;
   font-weight: 700;
-  letter-spacing: .05em;
+  letter-spacing: .015em;
   line-height: 1.4;
-  text-transform: uppercase;
+  /* explicit: the built stylesheet may still carry an uppercase rule */
+  text-transform: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: calc(100% - 1.1rem);
 }
 
 /* the author's own name stands out everywhere */
