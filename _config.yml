@@ -23,10 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Bin Zhang"
   avatar           : "images/photo.png"
-  bio              : "Ph.D."
+  bio              : "Assistant Research Professor"
   location         : "Beijing, China"
   affiliation      :
-    - "Assistant Research Professor"
     - "Institute of Automation"
     - "Chinese Academy of Sciences"
   pubmed           : 

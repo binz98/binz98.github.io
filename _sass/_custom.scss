@@ -497,9 +497,9 @@ a {
   border-radius: 0;
   background: none;
   box-shadow: none;
-  color: var(--c-muted);
+  color: var(--c-text);
   font-size: .82rem;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   letter-spacing: 0;
   line-height: 1.5;
@@ -558,11 +558,6 @@ a {
   font-size: .82rem;
   font-style: normal;
   line-height: 1.6;
-}
-
-.sidebar .author__affiliation strong {
-  color: var(--c-text);
-  font-weight: 700;
 }
 
 .sidebar .author__urls > li .fa,
