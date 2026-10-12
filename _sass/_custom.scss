@@ -690,23 +690,17 @@ a {
   position: relative;
 }
 
+/* identity row: the name sits on the same line as the affiliation logos,
+   the appointment wraps to its own full-width line, then the hairline */
 .hero__head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: .8rem 1.2rem;
-  margin: 0 0 1.2rem;
-}
-
-/* the card's own eyebrow */
-.hero__label {
-  color: var(--c-accent);
-  font-size: .76rem;
-  font-weight: 700;
-  letter-spacing: .1em;
-  line-height: 1.4;
-  text-transform: uppercase;
+  gap: .55rem 1.6rem;
+  margin: 0 0 1.5rem;
+  padding: 0 0 1.2rem;
+  border-bottom: 1px solid var(--c-line);
 }
 
 /* affiliation logos: the institute and the state key laboratory */
@@ -756,13 +750,6 @@ a {
   height: 30px;
 }
 
-/* name + degree, then the appointment; closed by a full-width hairline */
-.hero__id {
-  margin: 0 0 1.4rem;
-  padding: 0 0 1.15rem;
-  border-bottom: 1px solid var(--c-line);
-}
-
 .hero__name {
   display: flex;
   align-items: baseline;
@@ -783,8 +770,10 @@ a {
   letter-spacing: 0;
 }
 
+/* flex-basis 100% forces the appointment onto its own line, so the name
+   stays level with the logo plates instead of the name + title block */
 .hero__title {
-  margin-top: .35rem;
+  flex: 0 0 100%;
   color: var(--c-muted);
   font-size: .95rem;
   line-height: 1.5;

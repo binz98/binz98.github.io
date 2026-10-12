@@ -14,15 +14,11 @@ redirect_from:
 <div class="hero" markdown="1">
 
 <div class="hero__head">
-<div class="hero__label">About Me</div>
+<div class="hero__name">{{ site.author.name }}<span class="hero__degree">Ph.D.</span></div>
 <div class="hero__logos">
 <span class="hero__logo hero__logo--institute" title="Institute of Automation, Chinese Academy of Sciences"><img src="images/casiaLogo.png" alt="Institute of Automation, Chinese Academy of Sciences"></span>
 <span class="hero__logo hero__logo--lab" title="State Key Laboratory of Cognition and Decision Intelligence for Complex Systems"><img src="images/%E5%A4%8D%E6%9D%82%E5%AE%9E%E9%AA%8C%E5%AE%A4logo.svg" alt="State Key Laboratory of Cognition and Decision Intelligence for Complex Systems"></span>
 </div>
-</div>
-
-<div class="hero__id">
-<div class="hero__name">{{ site.author.name }}<span class="hero__degree">Ph.D.</span></div>
 <div class="hero__title">Assistant Research Professor · CASIA</div>
 </div>
 
