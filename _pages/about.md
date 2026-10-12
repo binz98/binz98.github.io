@@ -101,7 +101,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 [TPTU: Task Planning and Tool Usage of Large Language Model-Based AI Agents](https://arxiv.org/abs/2308.03427)
 
-Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
+Jingqing Ruan<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Yihong Chen<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
 
 <span class="pub-venue">NIPS 2023 Workshop</span> [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&citation_for_view=6Cqm0pYAAAAJ:qxL8FJ1GzNcC)
 
