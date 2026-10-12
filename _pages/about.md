@@ -681,8 +681,8 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 
   
 **Technical Committee Member**
-- Committee Member, Technical Committee on Modeling and Simulation, Chinese Institute of Command and Control (CICC, 中国指挥与控制学会建模与仿真专业委员会)
-- Executive Committee Member, Multi-Agent Systems Technical Group, CCF-AI
+- Committee Member, Technical Committee on Modeling and Simulation, CICC
+- Committee Member, Multi-Agent Systems Technical Group, CCF-AI
 
 **Area Chair**
 - International Conference on Learning Representations (ICLR 2027)
