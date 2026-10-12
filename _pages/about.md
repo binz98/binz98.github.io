@@ -143,7 +143,7 @@ We propose adaptive trust calibration for language-model-guided reinforcement le
 
 [Air-Branching: Learning to Branch via Adversarial Inverse Reinforcement Learning in Mixed-Integer Linear Programming](https://www.sciencedirect.com/science/article/pii/S0957417426029544)
 
-Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan.
+Ce Zhang, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>, Guoliang Fan.
 
 <span class="pub-venue">ESWA</span>
 
@@ -255,7 +255,7 @@ We propose Peak-Return Greedy Slicing, which estimates per-step returns with a m
 
 [Towards Better Branching Policies: Leveraging the Sequential Nature of Branch-and-Bound Tree](https://openreview.net/forum?id=iQKzHeLDrN)
 
-Ce Zhang,  <strong><u>Bin Zhang</u></strong>, Guoliang Fan
+Ce Zhang,  <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>, Guoliang Fan
 
 <span class="pub-venue">ICLR 2026</span>
 
