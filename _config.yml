@@ -23,9 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Bin Zhang"
   avatar           : "images/photo.png"
-  bio              : "C²DL@CASIA"
+  bio              : "Ph.D. · 张斌"
   location         : "Beijing, China"
-  employer         : "Institute of Automation, CAS"
+  affiliation      :
+    - "Assistant Research Professor"
+    - "Institute of Automation"
+    - "Chinese Academy of Sciences"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=6Cqm0pYAAAAJ"
   email            : "zhangbin2020@ia.ac.cn" 
