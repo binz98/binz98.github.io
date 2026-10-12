@@ -550,18 +550,14 @@ a {
   background: var(--c-bg-soft);
 }
 
-.sidebar .author__urls > li > div {
+.sidebar .author__urls > li > div,
+.sidebar .author__affiliation {
   width: 100%;
   margin: 0 0 .7rem;
   color: var(--c-muted);
   font-size: .82rem;
   font-style: normal;
   line-height: 1.6;
-}
-
-/* the affiliation reads as part of the centred identity block above it */
-.sidebar .author__affiliation {
-  text-align: center;
 }
 
 .sidebar .author__urls > li .fa,
