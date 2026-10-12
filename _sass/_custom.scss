@@ -872,7 +872,7 @@ a {
   position: relative;
   display: block;
   margin: 3.1rem 0 1.2rem;
-  padding: 0 0 .62rem 1.05rem;
+  padding: 0 0 .62rem;
   border-bottom: 0;
   background-image: linear-gradient(90deg, var(--c-line-2) 0%, transparent 72%);
   background-repeat: no-repeat;
@@ -886,17 +886,10 @@ a {
   scroll-margin-top: calc(var(--nav-h) + 26px);
 }
 
-/* replaces the theme's scroll-offset pseudo element with an accent bar */
+/* drop the theme's scroll-offset pseudo element; scroll-margin-top above
+   handles the anchor offset */
 .page__content > h1::before {
-  content: "";
-  display: inline-block;
-  position: static;
-  width: 5px;
-  height: .92em;
-  margin: 0 .5rem 0 0;
-  border-radius: 3px;
-  background: var(--c-accent);
-  vertical-align: -.08em;
+  content: none;
 }
 
 /* --------------------------------------------------------------------------
@@ -1147,10 +1140,10 @@ a {
    -------------------------------------------------------------------------- */
 
 .paper-box {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   align-items: center;
-  gap: 1.35rem;
+  gap: 1.2rem;
   margin: 0 0 1.15rem;
   padding: 1.25rem;
   border: 1px solid var(--c-line);
@@ -1170,8 +1163,6 @@ a {
 /* An empty image slot collapses, letting the text span the full card.
    Drop an <img> in here later and the card becomes two columns. */
 .paper-box .paper-box-image {
-  position: relative;
-  flex: 1 1 100%;
   width: 100%;
   max-width: 100%;
   min-width: 0;
@@ -1199,16 +1190,17 @@ a {
 }
 
 .paper-box .paper-box-text {
-  flex: 1 1 100%;
   width: 100%;
-  max-width: 100%;
   min-width: 0;
   order: 2;
   padding: 0;
   font-size: .95rem;
+  /* the theme caps this at 60% from its medium breakpoint; the grid column
+     already sizes it, so the cap must go */
+  max-width: none;
 }
 
-/* Citation layout inside a card. The venue is an overlay badge on the image, so
+/* Citation layout inside a card. The venue is a chip on the card, so
    cards with an image may drop the venue row entirely and end up with three
    paragraphs instead of four — hence `:last-of-type` rather than a fixed index.
    p1 = title · p2 = authors · p3 = links/venue (when present) · last = summary */
@@ -1283,28 +1275,41 @@ a {
   line-height: 1.68;
 }
 
-.paper-box .badge {
-  position: absolute;
-  top: .55rem;
-  left: .55rem;
-  z-index: 2;
-  margin: 0;
-  padding: .28rem .62rem;
-  border-radius: var(--r-pill);
-  background: rgba(10, 20, 36, .72);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  color: #fff;
-  font-size: .68rem;
+/* Authorship marks, as used in the papers themselves: a superscript symbol on
+   the author's own name, explained by the legend under the heading. The raise is
+   set explicitly rather than with `vertical-align: super`, which sits too high. */
+.paper-box .author-mark {
+  position: relative;
+  top: -.28em;
+  margin-left: .06em;
+  color: var(--c-accent);
+  font-size: .75em;
   font-weight: 700;
-  letter-spacing: .015em;
-  line-height: 1.4;
-  /* explicit: the built stylesheet may still carry an uppercase rule */
-  text-transform: none;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  max-width: calc(100% - 1.1rem);
+  line-height: 0;
+  vertical-align: baseline;
+}
+
+.pub-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .3rem 1.1rem;
+  margin: -.2rem 0 1.5rem;
+  color: var(--c-muted);
+  font-size: .8rem;
+}
+
+.pub-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: .38rem;
+}
+
+.pub-legend .author-mark {
+  position: relative;
+  top: -.12em;
+  margin: 0;
+  font-size: .86em;
 }
 
 /* the author's own name stands out everywhere */
@@ -1434,56 +1439,72 @@ a {
 
 /* --------------------------------------------------------------------------
    14. Academic services
+   Deliberately reuses the Honors card recipe (same border, radius, elevation
+   and icon slot) so the two sections read as one system; only the icon and
+   accent colour differ.
    -------------------------------------------------------------------------- */
 
-.page__content > [id="-academic-services"] ~ p {
-  margin: 1.15rem 0 .6rem;
+.page__content > [id="-academic-services"] ~ p:has(> strong) {
+  margin: 1.6rem 0 .6rem;
   color: var(--c-ink-2);
-  font-size: .84rem;
+  font-size: .8rem;
   font-weight: 700;
-  letter-spacing: .04em;
+  letter-spacing: .05em;
+  line-height: 1.5;
   text-transform: uppercase;
+}
+
+.page__content > [id="-academic-services"] ~ p:has(> strong) > strong {
+  font-weight: inherit;
 }
 
 .page__content > [id="-academic-services"] ~ ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: .5rem;
+  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  gap: .55rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .page__content > [id="-academic-services"] ~ ul > li {
+  display: block;
   position: relative;
   margin: 0;
-  padding: .62rem .9rem .62rem 2rem;
+  padding: .72rem .9rem .72rem 2.15rem;
   border: 1px solid var(--c-line);
   border-radius: var(--r-md);
   background: var(--c-bg-elev);
   box-shadow: var(--sh-xs);
   color: var(--c-text);
-  font-size: .84rem;
-  line-height: 1.55;
-  transition: border-color .22s var(--ease), box-shadow .22s var(--ease),
-              transform .22s var(--ease);
-}
-
-.page__content > [id="-academic-services"] ~ ul > li::before {
-  content: "\f058";
-  position: absolute;
-  left: .8rem;
-  top: .66rem;
-  font-family: "Font Awesome 5 Free", "Font Awesome 5 Solid", "FontAwesome";
-  font-size: .74rem;
-  font-weight: 900;
-  color: var(--c-accent);
+  font-size: .875rem;
+  line-height: 1.5;
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease),
+              border-color .25s var(--ease);
 }
 
 .page__content > [id="-academic-services"] ~ ul > li:hover {
   transform: translateY(-2px);
   border-color: var(--c-accent-line);
   box-shadow: var(--sh-md);
+}
+
+.page__content > [id="-academic-services"] ~ ul > li::before {
+  content: "\f058";
+  position: absolute;
+  left: .75rem;
+  top: .72rem;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Solid", "FontAwesome";
+  font-size: .82rem;
+  font-weight: 900;
+  color: var(--c-accent);
+  line-height: 1.5;
+}
+
+/* a group with a single entry gets one full-width card instead of a card
+   squeezed into the first column */
+.page__content > [id="-academic-services"] ~ ul > li:only-child {
+  grid-column: 1 / -1;
 }
 
 /* --------------------------------------------------------------------------
@@ -1643,19 +1664,22 @@ html[data-theme="dark"] .icon-btn .fa-moon { display: none; }
 
 @media (min-width: 925px) {
   .paper-box {
+    grid-template-columns: 38% minmax(0, 1fr);
     gap: 1.6rem;
     padding: 1.4rem;
   }
 
-  .paper-box .paper-box-image {
-    flex: 0 0 38%;
-    max-width: 38%;
+  .paper-box > .paper-box-image {
+    grid-column: 1;
   }
 
-  .paper-box .paper-box-text {
-    flex: 1 1 0;
-    width: auto;
-    max-width: none;
+  /* text sits beside the figure only when there is one */
+  .paper-box > .paper-box-image + .paper-box-text {
+    grid-column: 2;
+  }
+
+  .paper-box > .paper-box-image:empty + .paper-box-text {
+    grid-column: 1 / -1;
   }
 }
 

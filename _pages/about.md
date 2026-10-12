@@ -86,288 +86,330 @@ If you are interested with my experience or research. Plese feel free to contact
 
 # 📝 Publications 
 
+<p class="pub-legend"><span><sup class="author-mark">*</sup>Equal contribution</span><span><sup class="author-mark">✉</sup>Corresponding author</span></p>
+
 <!-- Publication cards in citation layout:
      line 1 = title (linked), line 2 = authors, line 3 = venue and links, line 4 = summary.
+     Roles are marked on the author's own name, as in the papers: <sup class="author-mark">.
      Each card owns an image slot: put an <img> inside <div class='paper-box-image'></div>
      and that card becomes a two column layout. -->
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">NIPS 2023 Workshop</div><img src='images/TPTU.png' alt='NIPS 2023 Workshop figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/TPTU.jpg' alt='NIPS 2023 Workshop figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [TPTU: Task Planning and Tool Usage of Large Language Model-Based AI Agents](https://arxiv.org/abs/2308.03427)
 
-Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
+Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&citation_for_view=6Cqm0pYAAAAJ:qxL8FJ1GzNcC)
+<span class="pub-venue">NIPS 2023 Workshop</span> [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&citation_for_view=6Cqm0pYAAAAJ:qxL8FJ1GzNcC)
 
 We propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate problems.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">CASE 2026</div><img src='images/benchmark.png' alt='CASE 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/benchmark.jpg' alt='CASE 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Benchmarking the Text-to-SQL Capability of Large Language Models: A Comprehensive Evaluation](https://arxiv.org/abs/2403.02951)
 
 <strong><u>Bin Zhang</u></strong>, Yuxiao Ye, Guoqing Du, Xiaoru Hu, Zhishuai Li, Sun Yang, Chi Harold Liu, Rui Zhao, Ziyue Li, Hangyu Mao
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&sortby=pubdate&citation_for_view=6Cqm0pYAAAAJ:aqlVkmm33-oC)
+<span class="pub-venue">CASE 2026</span> [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&sortby=pubdate&citation_for_view=6Cqm0pYAAAAJ:aqlVkmm33-oC)
 
 We evaluate LLMs through five Text-to-SQL related tasks, reveal performance differences and suggest task-specific optimization strategies.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">NeurIPS 2026</div><img src='images/TrustFlow.png' alt='NeurIPS 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/TrustFlow.jpg' alt='NeurIPS 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 TrustFlow: Adaptive Trust Calibration for Language Model Guided Reinforcement Learning
 
-Hao Chen, Zhiwei Xu, Hu Fu, Yuelin Ma, Hangyu Mao, Yiqun Chen, Guoliang Fan, <strong><u>Bin Zhang</u></strong>.
+Hao Chen, Zhiwei Xu, Hu Fu, Yuelin Ma, Hangyu Mao, Yiqun Chen, Guoliang Fan, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>.
+
+<span class="pub-venue">NeurIPS 2026</span>
 
 We propose adaptive trust calibration for language-model-guided reinforcement learning, estimating when the agent should follow the language model's guidance and when it should rely on its own policy.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ESWA</div><img src='images/AirBranching.png' alt='ESWA figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/AirBranching.jpg' alt='ESWA figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Air-Branching: Learning to Branch via Adversarial Inverse Reinforcement Learning in Mixed-Integer Linear Programming](https://www.sciencedirect.com/science/article/pii/S0957417426029544)
 
 Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan.
 
+<span class="pub-venue">ESWA</span>
+
 We learn branching variable selection for mixed-integer linear programming with adversarial inverse reinforcement learning, using a two-stage warm-up plus joint-reward scheme that lowers the demand for expert demonstrations and surpasses both imitation and plain reinforcement learning baselines.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICONIP 2026</div><img src='images/SGA-ACR.png' alt='ICONIP 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/SGA-ACR.jpg' alt='ICONIP 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Subgoal Graph-Augmented Planning for LLM-Guided Open-World Reinforcement Learning](https://arxiv.org/pdf/2511.20993)
 
 Shanwei Fan, <strong><u>Bin Zhang</u></strong>, Zhiwei Xu, Yingxuan Teng, Siqi Dai, Lin Cheng, Guoliang Fan.
 
+<span class="pub-venue">ICONIP 2026</span>
+
 We propose Subgoal Graph-Augmented Actor-Critic-Refiner (SGA-ACR), which grounds LLM subgoal generation in an environment-specific subgoal graph and structured entity knowledge and splits planning across several LLM roles, closing the gap between plausible plans and feasible behaviour.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">AI for Math Workshop @ ICML 2026</div><img src='images/LeanRefiner.png' alt='ICML 2026 Workshop figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/LeanRefiner.jpg' alt='ICML 2026 Workshop figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [LeanRefiner: Agentic Global-to-Local Optimization of Lean Proofs](https://openreview.net/pdf?id=60bd3O67QA)
 
 Tian Cui, <strong><u>Bin Zhang</u></strong>, Changwei Wang, Zhiwei Xu, Zeyang Liu.
 
+<span class="pub-venue">AI for Math Workshop @ ICML 2026</span>
+
 We optimise already-verified Lean proofs with a verifier-guided agentic framework that alternates global theorem-level restructuring with local pattern-guided reduction, shortening proofs while the Lean verifier guarantees the same theorem is still proved.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">CASE 2026</div><img src='images/LLaMAC.png' alt='CASE 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/LLaMAC.jpg' alt='CASE 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Controlling Large Language Model-based Agents for Large-Scale Decision-Making: An Actor-Critic Approach](https://arxiv.org/abs/2311.13884)
 
 <strong><u>Bin Zhang</u></strong>, Hangyu Mao, Jingqing Ruan, et al.
 
-<span class="pub-venue">ICLR 2024 Workshop on LLM Agents</span>
-
+<span class="pub-venue">CASE 2026</span> <span class="pub-venue">ICLR 2024 Workshop on LLM Agents</span>
 
 We develop LLaMAC, a modular actor-critic framework that controls LLM-based agents for large-scale decision-making, curbing hallucination and coordinating many agents while keeping token consumption tractable.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">RLC 2026</div><img src='images/SIDIFF.png' alt='RLC 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/SIDIFF.jpg' alt='RLC 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Beyond Local Views: Global State Inference with Diffusion Models for Cooperative MARL](https://arxiv.org/abs/2408.09501)
 
 Zhiwei Xu, Hangyu Mao, Nianmin Zhang, Shengtao Zhang, Xin Xin, Pengjie Ren, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan, Zhumin Chen, Changwei Wang, Jiangjin Yin
 
+<span class="pub-venue">RLC 2026</span>
+
 We propose State Inference with Diffusion Models (SIDIFF), which reconstructs the global state from local observations alone so that agents can act on both the inferred global state and their own view under partial observability.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">IJCAI 2026</div><img src='images/DECOR.png' alt='IJCAI 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/DECOR.jpg' alt='IJCAI 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [From Traits to Roles: Consensus-Guided Composition of Orthogonal Experts for Cooperative MARL](https://www.ijcai.org/proceedings/2026/55)
 
 Yewei Zhou, <strong><u>Bin Zhang</u></strong>, Ying Zhou, Xuri Ge, Dapeng Li, Hangyu Mao, Pengjie Ren, Zhiwei Xu
 
+<span class="pub-venue">IJCAI 2026</span>
+
 We propose DECOR, which models agent roles as dynamic compositions of orthogonal behavioural traits and uses an orthogonal mixture-of-experts to avoid destructive gradient interference in heterogeneous cooperative tasks.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICAPS 2026</div><img src='images/QSIM.png' alt='ICAPS 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/QSIM.jpg' alt='ICAPS 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [QSIM: Mitigating Overestimation in Multi-Agent Reinforcement Learning via Action Similarity Weighted Q-Learning](https://ojs.aaai.org/index.php/ICAPS/article/view/42882)
 
 Yuanjun Li, <strong><u>Bin Zhang</u></strong>, Hao Chen, Zhouyang Jiang, Dapeng Li, Zhiwei Xu
 
+<span class="pub-venue">ICAPS 2026</span>
+
 We propose QSIM, which rebuilds the temporal-difference target with action-similarity weighting instead of the greedy joint action, mitigating the Q-value overestimation that the max operator causes in cooperative MARL.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICLR 2026</div><img src='images/PRGS.png' alt='ICLR 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/PRGS.jpg' alt='ICLR 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL](https://openreview.net/forum?id=7vpehpWnnY)
 
 Zhiwei Xu, Miduo Cui, Dapeng Li, Zhihao Liu, Haifeng Zhang, Hangyu Mao, Guoliang Fan, <strong><u>Bin Zhang</u></strong>
 
+<span class="pub-venue">ICLR 2026</span>
+
 We propose Peak-Return Greedy Slicing, which estimates per-step returns with a maximum mean discrepancy estimator and greedily extracts high-return subtrajectories for Transformer training, with adaptive history truncation at inference to match the training scheme.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICLR 2026</div><img src='images/Mamba-Branching.png' alt='ICLR 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/Mamba-Branching.jpg' alt='ICLR 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards Better Branching Policies: Leveraging the Sequential Nature of Branch-and-Bound Tree](https://openreview.net/forum?id=iQKzHeLDrN)
 
 Ce Zhang,  <strong><u>Bin Zhang</u></strong>, Guoliang Fan
 
+<span class="pub-venue">ICLR 2026</span>
+
 We propose Mamba-Branching, a branching policy that uses the Mamba state-space model to capture long sequential dependencies across branch-and-bound steps, with contrastive pre-training of variable embeddings, outperforming prior neural branching policies on real MILP instances.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">AAMAS 2026</div><img src='images/MIQD.png' alt='AAMAS 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/MIQD.jpg' alt='AAMAS 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Quality-Diversity for Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/pdf/10.65109/SLJK5791)
 
 Hao Chen, Pengyi Li, <strong><u>Bin Zhang</u></strong>, Hu Fu, Zhiwei Xu, Ce Zhang, Xinyue Lu, Guoliang Fan
 
+<span class="pub-venue">AAMAS 2026</span>
+
 We propose MIQD, a mutual-information-enhanced quality-diversity framework that feeds fragment-based behavioural descriptors into the critic, replacing random exploration with informed diversity for more stable coverage in cooperative MARL.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">AAAI 2026</div><img src='images/GOV.png' alt='AAAI 2026 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/GOV.jpg' alt='AAAI 2026 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Graph of Verification: Structured Verification of LLM Reasoning with Directed Acyclic Graphs](https://arxiv.org/abs/2506.12509)
 
 Jiwei Fang, <strong><u>Bin Zhang</u></strong>, Changwei Wang, Jin Wan, Zhiwei Xu
 
+<span class="pub-venue">AAAI 2026</span>
+
 We propose the Graph of Verification (GoV), a node-block graph that adapts to different reasoning structures and supports multi-granular, localised verification of LLM reasoning, from formal proofs to informal narratives.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICML 2025</div><img src='images/CAID.png' alt='ICML 2025 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/CAID.jpg' alt='ICML 2025 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Reidentify: Context-Aware Identity Generation for Contextual Multi-Agent Reinforcement Learning](https://openreview.net/forum?id=vUDWRMB3tX&noteId=PzF98Qf08i)
 
 Zhiwei Xu, Kun Hu, Xin Xin, Weiliang Meng, Yiwei Shi, Hangyu Mao, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Jiangjin Yin
 
+<span class="pub-venue">ICML 2025</span>
+
 We propose Context-Aware Identity Generation (CAID), a causal Transformer decoder that produces agent identities aligning corresponding agents across problem variants, together with an action regulator that injects them into the action-value space for better policy reuse and generalisation.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">IJCNN 2025</div><img src='images/SATA.png' alt='IJCNN 2025 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/SATA.jpg' alt='IJCNN 2025 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Enhancing Branching Policy Generalization through Self-Supervised Adversarial Instance Augmentation](https://ieeexplore.ieee.org/document/11229180)
 
 Ce Zhang, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
 
+<span class="pub-venue">IJCNN 2025</span>
+
 We introduce SATA, a self-supervised adversarial instance augmentation method that generates diverse training instances to improve the generalisation of learned branching variable selection policies in branch-and-bound.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">TMLR</div><img src='images/QPO.png' alt='TMLR figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/QPO.jpg' alt='TMLR figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [QPO: Query-dependent Prompt Optimization via Multi-Loop Offline Reinforcement Learning](https://openreview.net/forum?id=bqMJToTkvT)
 
 Yilun Kong, Hangyu Mao, Zhao Qi, <strong><u>Bin Zhang</u></strong>, Jingqing Ruan, Li Shen, Yongzhe Chang, Xueqian Wang, Rui Zhao, Dacheng Tao
 
+<span class="pub-venue">TMLR</span>
+
 We introduce Query-dependent Prompt Optimization (QPO), which uses multi-loop offline reinforcement learning to fine-tune a small pretrained language model that generates prompts tailored to each input query, avoiding costly online interaction with the target LLM.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">DASFAA 2025</div><img src='images/PET-SQL.png' alt='DASFAA 2025 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/PET-SQL.jpg' alt='DASFAA 2025 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [PET-SQL: A Prompt-enhanced Two-stage Text-to-SQL Framework with Cross-consistency](https://arxiv.org/abs/2403.09732)
 
 Zhishuai Li, Xiang Wang, Jingjing Zhao, Sun Yang, Guoqing Du, Xiaoru Hu, <strong><u>Bin Zhang</u></strong>, Yuxiao Ye, Ziyue Li, Rui Zhao, Hangyu Mao
 
+<span class="pub-venue">DASFAA 2025</span>
+
 We present a two-stage text-to-SQL framework that prompts LLMs with a reference-enhanced representation of the schema and sampled cell values, then applies cross-consistency over the generated queries to cope with verbose databases and complex user intentions.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">AAMAS 2025</div><img src='images/UDI.png' alt='AAMAS 2025 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/UDI.jpg' alt='AAMAS 2025 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Unveiling Decision Intention for Cooperative Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/10.5555/3709347.3743875)
 
 Zeren Zhang, Zhiwei Xu, Guangchong Zhou, Dapeng Li, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
 
+<span class="pub-venue">AAMAS 2025</span>
+
 We generate the decision intentions of agents with a diffusion model, first selecting task-crucial states through a polarisation index, so that humans can understand what a cooperative agent intends to do and agent strategies become more transparent.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">AAAI 2025</div><img src='images/COCOM.png' alt='AAAI 2025 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/COCOM.jpg' alt='AAAI 2025 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Efficient Communication in Multi-Agent Reinforcement Learning with Implicit Consensus Generation](https://ojs.aaai.org/index.php/AAAI/article/view/34490)
 
 Dapeng Li, Na Lou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
 
+<span class="pub-venue">AAAI 2025</span>
+
 We combine implicit consensus generation with efficient communication so that agents exchange only what is needed to reduce uncertainty about their teammates, significantly lowering communication overhead while preserving collaboration.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">ICML 2024</div><img src='images/STEER.png' alt='ICML 2024 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/STEER.jpg' alt='ICML 2024 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems](https://arxiv.org/abs/2305.07856)
 
 <strong><u>Bin Zhang</u></strong>, Hangyu Mao, Lijuan Li, Zhiwei Xu, Dapeng Li, Rui Zhao, and Guoliang Fan
 
+<span class="pub-venue">ICML 2024</span>
+
 We propose the Stackelberg Decision Transformer (STEER), which handles hierarchical coordination among agents in both spatial and temporal contexts and converges to Stackelberg equilibrium solutions.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">IJCAI 2024</div><img src='images/PTDE.png' alt='IJCAI 2024 figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/PTDE.jpg' alt='IJCAI 2024 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [PTDE: Personalized Training with Distilled Execution for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2210.08872)
 
 Yiqun Chen, Hangyu Mao, Jiaxin Mao, Shiguang Wu, Tianle Zhang, <strong><u>Bin Zhang</u></strong>, Wei Yang, Hongxing Chang
 
+<span class="pub-venue">IJCAI 2024</span>
+
 We propose Personalized Training with Distilled Execution (PTDE), which personalises global information for each agent and distils it into the agent's local information, showing that one shared global signal is not enough for optimal performance.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="badge">EMNLP 2024 Industry Track</div><img src='images/TPTUv2.png' alt='EMNLP 2024 Industry Track figure'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/TPTUv2.jpg' alt='EMNLP 2024 Industry Track figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315)
 
 Yilun Kong, Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, et al.
+
+<span class="pub-venue">EMNLP 2024 Industry Track</span>
 
 We introduce a comprehensive framework that strengthens the task planning and tool usage abilities of LLM-based agents in real-world systems, tackling the huge number of available APIs, complex multi-step tasks and prompt length limits.
 
@@ -631,10 +673,15 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 - *2017-2020*, First-class Scholarship, Shandong University (3 times)
 
 # 🌠 Academic Services
-**Area Chair:**
-- International Conference on Learning Representations (ICLR 2027)
+
   
-**Program Committee Member or Reviewer:**
+**Technical Committee Member**
+- Technical Committee on Modeling and Simulation, Chinese Institute of Command and Control (CICC, 中国指挥与控制学会建模与仿真专业委员会)
+
+**Area Chair**
+- International Conference on Learning Representations (ICLR 2027)
+
+**Program Committee Member or Reviewer**
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 - Applied Soft Computing Journal
 - International Conference on Learning Representations (ICLR 2024, 2025, 2026)
