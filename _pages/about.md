@@ -13,17 +13,22 @@ redirect_from:
 
 <div class="hero" markdown="1">
 
-<div class="hero__top">
-<div class="hero__eyebrow">Reinforcement Learning · Multi-Agent Systems · LLM Agents</div>
+<div class="hero__head">
+<div class="hero__label">About Me</div>
 <div class="hero__logos">
 <span class="hero__logo hero__logo--institute" title="Institute of Automation, Chinese Academy of Sciences"><img src="images/casiaLogo.png" alt="Institute of Automation, Chinese Academy of Sciences"></span>
 <span class="hero__logo hero__logo--lab" title="State Key Laboratory of Cognition and Decision Intelligence for Complex Systems"><img src="images/%E5%A4%8D%E6%9D%82%E5%AE%9E%E9%AA%8C%E5%AE%A4logo.svg" alt="State Key Laboratory of Cognition and Decision Intelligence for Complex Systems"></span>
 </div>
 </div>
 
+<div class="hero__id">
+<div class="hero__name">{{ site.author.name }}<span class="hero__degree">Ph.D.</span></div>
+<div class="hero__title">Assistant Research Professor · CASIA</div>
+</div>
+
 Welcome to Bin Zhang’s Personal Homepage!
 
-I am an **Assistant Professor/Postdoctoral Fellow** at the [Institute of Automation, Chinese Academy of Sciences (CASIA, 中国科学院自动化研究所)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. Advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
+I am an **Assistant Research Professor** at the [Institute of Automation, Chinese Academy of Sciences (CASIA, 中国科学院自动化研究所)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. Advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
 
 - Developing ​​adaptive AI algorithms​​ for multi-agent cooperation/competition in complex environments.
 - Advancing ​​LLM agents' collaborative reasoning​​ and ​​tool-learning capabilities​​ for autonomous systems.
@@ -33,7 +38,7 @@ I also work closely with [Prof. Zhiwei Xu (徐志伟)](https://xuleek.tech/) (As
 If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg).
 
 <div class="hero__actions">
-  <a class="hero__btn hero__btn--primary" href="mailto:zhangbin2020@ia.ac.cn"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
+  <a class="hero__btn" href="mailto:zhangbin2020@ia.ac.cn"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
   <a class="hero__btn" href="https://scholar.google.com/citations?user=6Cqm0pYAAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i>Google Scholar</a>
   <a class="hero__btn" href="../images/WeChat.jpg"><i class="fab fa-weixin" aria-hidden="true"></i>WeChat</a>
 </div>
