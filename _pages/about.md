@@ -15,7 +15,7 @@ redirect_from:
 
 <div class="hero__head">
 <div class="hero__label">About Me</div>
-<div class="hero__name">{{ site.author.name }}<span class="hero__cn">张斌</span><span class="hero__degree">Ph.D.</span></div>
+<div class="hero__name">{{ site.author.name }}<span class="hero__cn">(张斌)</span><span class="hero__degree">Ph.D.</span></div>
 <div class="hero__logos">
 <span class="hero__logo hero__logo--institute" title="Institute of Automation, Chinese Academy of Sciences"><img src="images/casiaLogo.png" alt="Institute of Automation, Chinese Academy of Sciences"></span>
 <span class="hero__sep" aria-hidden="true"></span>
