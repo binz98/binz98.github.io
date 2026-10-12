@@ -15,7 +15,7 @@ redirect_from:
 
 <div class="hero__head">
 <div class="hero__label">About Me</div>
-<div class="hero__name">{{ site.author.name }}<span class="hero__degree">Ph.D.</span></div>
+<div class="hero__name">{{ site.author.name }}<span class="hero__cn">张斌</span><span class="hero__degree">Ph.D.</span></div>
 <div class="hero__logos">
 <span class="hero__logo hero__logo--institute" title="Institute of Automation, Chinese Academy of Sciences"><img src="images/casiaLogo.png" alt="Institute of Automation, Chinese Academy of Sciences"></span>
 <span class="hero__sep" aria-hidden="true"></span>
@@ -419,7 +419,7 @@ We introduce a comprehensive framework that strengthens the task planning and to
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/SGCD.jpg' alt='IJCNN 2024 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [SGCD: Subgroup Contribution Decomposition for Multi-Agent Reinforcement Learning](https://ieeexplore.ieee.org/document/10650899)
@@ -433,7 +433,7 @@ We propose SGCD, a subgroup contribution decomposition method that introduces su
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/PDiT.jpg' alt='AAMAS 2024 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [PDiT: Interleaving Perception and Decision-making Transformers for Deep Reinforcement Learning](https://arxiv.org/abs/2312.15863v1)
@@ -447,7 +447,7 @@ We propose the Perception and Decision-making Interleaving Transformer (PDiT), w
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/TACO.jpg' alt='AAMAS Extended Abstract 2024 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [From Explicit Communication to Tacit Cooperation: A Novel Paradigm for Cooperative MARL](https://arxiv.org/abs/2304.14656)
@@ -461,7 +461,7 @@ We propose a paradigm that gradually shifts from explicit communication during e
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'></div>
+<div class='paper-box'><div class='paper-box-image'><img src='images/AdaPS.jpg' alt='ICASSP 2024 figure'></div>
 <div class='paper-box-text' markdown="1">
 
 [Adaptive Parameter Sharing for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2312.09009)

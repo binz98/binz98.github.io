@@ -732,8 +732,8 @@ a {
      let each lockup run as wide as its own artwork needs */
   /* kept close to the artwork height: the name is centred against this row,
      so every extra pixel here also pushes the appointment line away */
-  height: 46px;
-  padding: 0 .6rem;
+  height: 54px;
+  padding: 0 .7rem;
   border-radius: var(--r-md);
   /* no frame in the light theme — the logos sit flat on the card; the white
      backing only exists to keep the dark-ink artwork legible on dark */
@@ -763,12 +763,12 @@ a {
 }
 
 .hero__logo--institute img {
-  height: 40px;
+  height: 46px;
 }
 
 /* 7:1 wordmark, so size it by height and let it run wide */
 .hero__logo--lab img {
-  height: 28px;
+  height: 32px;
 }
 
 html[data-theme="dark"] .hero__logo {
@@ -795,13 +795,24 @@ html[data-theme="dark"] .hero__logo {
   letter-spacing: 0;
 }
 
+/* the Chinese name, sized up from the degree so CJK glyphs stay legible */
+.hero__cn {
+  color: var(--c-ink-2);
+  font-size: .72em;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
 /* flex-basis 100% forces the appointment onto its own line, so the name
    stays level with the logo plates instead of the name + title block */
 .hero__title {
   flex: 0 0 100%;
+  /* pulls the appointment back up under the name, cancelling the slack the
+     centred name leaves inside the taller lockup row */
+  margin-top: -.5rem;
   color: var(--c-muted);
   font-size: .95rem;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .hero > p:first-of-type {
@@ -1731,16 +1742,16 @@ html[data-theme="dark"] .icon-btn .fa-moon { display: none; }
   }
 
   .hero__logo {
-    height: 44px;
+    height: 48px;
     padding: 0 .5rem;
   }
 
   .hero__logo--institute img {
-    height: 36px;
+    height: 40px;
   }
 
   .hero__logo--lab img {
-    height: 24px;
+    height: 26px;
   }
 
   .interest-grid {
@@ -1785,6 +1796,12 @@ html[data-theme="dark"] .icon-btn .fa-moon { display: none; }
     width: fit-content;
     min-width: 0;
     margin: 0 0 .2em;
+  }
+
+  /* the lockups wrap onto their own row here, so the appointment must not
+     be pulled up into them */
+  .hero__title {
+    margin-top: 0;
   }
 }
 
