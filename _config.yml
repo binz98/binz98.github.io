@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Bin Zhang"
   avatar           : "images/photo.png"
-  bio              : "Ph.D. · 张斌"
+  bio              : "Ph.D."
   location         : "Beijing, China"
   affiliation      :
     - "Assistant Research Professor"
