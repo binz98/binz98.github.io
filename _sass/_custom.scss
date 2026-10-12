@@ -1501,6 +1501,11 @@ html[data-theme="dark"] .hero__logo {
   list-style: none;
 }
 
+/* the committee seats read one per row rather than side by side */
+.page__content > [id="-academic-services"] + p + ul {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .page__content > [id="-academic-services"] ~ ul > li {
   display: block;
   position: relative;
