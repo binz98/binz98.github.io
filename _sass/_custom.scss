@@ -803,10 +803,10 @@ html[data-theme="dark"] .hero__logo {
   letter-spacing: 0;
 }
 
-/* the Chinese name, sized up from the degree so CJK glyphs stay legible */
+/* the Chinese name, held at the English name's size */
 .hero__cn {
   color: var(--c-ink-2);
-  font-size: .72em;
+  font-size: 1em;
   font-weight: 600;
   letter-spacing: 0;
 }
