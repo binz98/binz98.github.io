@@ -6,6 +6,11 @@
 (function () {
   'use strict';
 
+  // guard against the script being loaded more than once, which would bind
+  // every listener twice and duplicate the controls it creates
+  if (window.__bzHomepageInit) return;
+  window.__bzHomepageInit = true;
+
   var doc = document;
   var root = doc.documentElement;
 
