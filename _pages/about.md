@@ -24,16 +24,18 @@ redirect_from:
 <div class="hero__title">Assistant Research Professor · CASIA</div>
 </div>
 
-Welcome to Bin Zhang’s Personal Homepage!
+<!-- Welcome to Bin Zhang’s Personal Homepage! -->
 
-I am an **Assistant Research Professor** at the [Institute of Automation, Chinese Academy of Sciences (CASIA, 中国科学院自动化研究所)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. Advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
+I am an **Assistant Research Professor** at the [Institute of Automation, Chinese Academy of Sciences (CASIA, 中国科学院自动化研究所)](http://www.ia.cas.cn/), working in the Key Laboratory of Cognition and Decision Intelligence for Complex Systems. I am advised by [Prof. Guoliang Fan (范国梁)](https://people.ucas.ac.cn/~fanguoliang), and my research spans ​​Reinforcement Learning (RL)​​, ​​Multi-agent Systems​​, and ​​Large Language Model (LLM) Agents​​, with a focus on:
 
 - Developing ​​adaptive AI algorithms​​ for multi-agent cooperation/competition in complex environments.
 - Advancing ​​LLM agents' collaborative reasoning​​ and ​​tool-learning capabilities​​ for autonomous systems.
   
-I also work closely with [Prof. Zhiwei Xu (徐志伟)](https://xuleek.tech/) (Assistant Professor, Shandong University). And I have published 30+ papers at the international AI conferences.
+I also collaborate closely with [Prof. Zhiwei Xu (徐志伟)](https://xuleek.tech/) (Assistant Professor, Shandong University). I have published 30+ papers at the international AI conferences.
 
-If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg).
+<!-- If you are interested with my experience or research. Plese feel free to contact with me via [<b>Email</b>](mailto:zhangbin2020@ia.ac.cn) or [<b>Wechat</b>](../images/WeChat.jpg). -->
+Interested in research collaboration? Feel free to get in touch.
+
 
 <div class="hero__actions">
   <a class="hero__btn" href="mailto:zhangbin2020@ia.ac.cn"><i class="fas fa-envelope" aria-hidden="true"></i>Email</a>
@@ -104,7 +106,7 @@ If you are interested with my experience or research. Plese feel free to contact
 
 Jingqing Ruan<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Yihong Chen<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Zhiwei Xu, Tianpeng Bao, Guoqing Du, Shiwei Shi, Hangyu Mao, Ziyue Li, Xingyu Zeng, Rui Zhao
 
-<span class="pub-venue">NIPS 2023 Workshop</span> [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&citation_for_view=6Cqm0pYAAAAJ:qxL8FJ1GzNcC)
+<span class="pub-venue">NeurIPS 2023 Workshop</span> [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=6Cqm0pYAAAAJ&citation_for_view=6Cqm0pYAAAAJ:qxL8FJ1GzNcC)
 
 We propose a structured framework tailored for LLM-based AI Agents and discuss the crucial capabilities necessary for tackling intricate problems.
 
@@ -242,7 +244,7 @@ We propose QSIM, which rebuilds the temporal-difference target with action-simil
 
 [Peak-Return Greedy Slicing: Subtrajectory Selection for Transformer-based Offline RL](https://openreview.net/forum?id=7vpehpWnnY)
 
-Zhiwei Xu, Miduo Cui, Dapeng Li, Zhihao Liu, Haifeng Zhang, Hangyu Mao, Guoliang Fan, <strong><u>Bin Zhang</u></strong>
+Zhiwei Xu, Miduo Cui, Dapeng Li, Zhihao Liu, Haifeng Zhang, Hangyu Mao, Guoliang Fan, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>
 
 <span class="pub-venue">ICLR 2026</span>
 
@@ -256,7 +258,7 @@ We propose Peak-Return Greedy Slicing, which estimates per-step returns with a m
 
 [Towards Better Branching Policies: Leveraging the Sequential Nature of Branch-and-Bound Tree](https://openreview.net/forum?id=iQKzHeLDrN)
 
-Ce Zhang,  <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>, Guoliang Fan
+Ce Zhang,  <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>, Guoliang Fan<sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>
 
 <span class="pub-venue">ICLR 2026</span>
 
@@ -270,7 +272,7 @@ We propose Mamba-Branching, a branching policy that uses the Mamba state-space m
 
 [Quality-Diversity for Multi-Agent Reinforcement Learning](https://dl.acm.org/doi/pdf/10.65109/SLJK5791)
 
-Hao Chen, Pengyi Li, <strong><u>Bin Zhang</u></strong>, Hu Fu, Zhiwei Xu, Ce Zhang, Xinyue Lu, Guoliang Fan
+Hao Chen, Pengyi Li, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>, Hu Fu, Zhiwei Xu, Ce Zhang, Xinyue Lu, Guoliang Fan<sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>
 
 <span class="pub-venue">AAMAS 2026</span>
 
@@ -368,7 +370,7 @@ We generate the decision intentions of agents with a diffusion model, first sele
 
 [Efficient Communication in Multi-Agent Reinforcement Learning with Implicit Consensus Generation](https://ojs.aaai.org/index.php/AAAI/article/view/34490)
 
-Dapeng Li, Na Lou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
+Dapeng Li, Na Lou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>, Guoliang Fan<sup class="author-mark" title="Corresponding author">✉<span class="sr-only"> (Corresponding author)</span></sup>
 
 <span class="pub-venue">AAAI 2025</span>
 
@@ -410,7 +412,7 @@ We propose Personalized Training with Distilled Execution (PTDE), which personal
 
 [Boosting Task Planning and Tool Usage of Large Language Model-based Agents in Real-world Systems](https://arxiv.org/abs/2311.11315)
 
-Yilun Kong, Jingqing Ruan, Yihong Chen, <strong><u>Bin Zhang</u></strong>, et al.
+Yilun Kong<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Jingqing Ruan<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, Yihong Chen<sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, <strong><u>Bin Zhang</u></strong><sup class="author-mark" title="Equal contribution">*<span class="sr-only"> (Equal contribution)</span></sup>, et al.
 
 <span class="pub-venue">EMNLP 2024 Industry Track</span>
 
