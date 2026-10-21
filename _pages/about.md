@@ -675,9 +675,9 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 # 🎙️ Invited Talks
 
 <ul class="talk-list">
-<li><span class="talk__head"><span class="talk__date">2026.10</span><span class="talk__venue">Institute of Microelectronics, CAS · 大算力AI芯片软硬件生态协同学术研讨会</span></span><span class="talk__title">知识引导与经验驱动的智能体决策学习及自主进化</span></li>
+<li><span class="talk__head"><span class="talk__date">2026.10</span><span class="talk__venue">中科院微电子所大算力AI芯片软硬件生态协同学术研讨会 · Beijing</span></span><span class="talk__title">知识引导与经验驱动的智能体决策学习及自主进化</span></li>
 <li><span class="talk__head"><span class="talk__date">2023.12</span><span class="talk__venue">International Doctoral Forum · Hong Kong</span></span><span class="talk__title">Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems</span></li>
-<li><span class="talk__head"><span class="talk__date">2023.07</span><span class="talk__venue">IJCAI · Macau</span></span><span class="talk__title">Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning</span></li>
+<li><span class="talk__head"><span class="talk__date">2023.07</span><span class="talk__venue">IJCAI Oral · Macau</span></span><span class="talk__title">Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning</span></li>
 </ul>
 
 # 🥇 Honors and Awards
