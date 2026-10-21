@@ -672,7 +672,7 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 - `OpenReview` [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
 -  `arXiv:2404.17780` [Verco: Learning Coordinated Verbal Communication for Multi-agent Reinforcement Learning](https://arxiv.org/abs/2404.17780). Dapeng Li, Hang Dong, Lu Wang, Bo Qiao, Si Qin, Qingwei Lin, Dongmei Zhang, Qi Zhang, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
   
-# 🎙️ Invited Talks
+<h1 id="-invited-talks">🎙️ Invited Talks</h1>
 
 <ul class="talk-list">
 <li><span class="talk__head"><span class="talk__date">2026.10</span><span class="talk__venue">中科院微电子所大算力AI芯片软硬件生态协同学术研讨会 · Beijing</span></span><span class="talk__title">知识引导与经验驱动的智能体决策学习及自主进化</span></li>
