@@ -1208,19 +1208,6 @@ html[data-theme="dark"] .hero__logo {
   line-height: 1.1;
 }
 
-/* the three lead roles share one counter, so their figures sit in a row */
-.pub-stats__num--trio {
-  display: flex;
-  align-items: baseline;
-  gap: .3rem;
-}
-
-.pub-stats__num--trio > i {
-  color: var(--c-line-2);
-  font-style: normal;
-  font-weight: 500;
-}
-
 .pub-stats__label {
   display: block;
   margin-top: .12rem;
@@ -1247,14 +1234,6 @@ html[data-theme="dark"] .hero__logo {
   height: 100%;
   border-radius: inherit;
   background: var(--c-accent);
-}
-
-/* every counter shares the same surface, so the strip reads as one row */
-.pub-stats__note {
-  margin: 0 0 1rem;
-  color: var(--c-muted);
-  font-size: .76rem;
-  line-height: 1.5;
 }
 
 .paper-box {

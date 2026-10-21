@@ -156,6 +156,82 @@
     });
   }
 
+  /* ------------------------------------------------- publication counters */
+
+  // Derived from the publication cards themselves, so the figures stay in
+  // step with the list: a card's author line gives the position of the name,
+  // and the credit mark on it flags equal contribution or corresponding.
+  (function () {
+    var cards = doc.querySelectorAll('.page__content .paper-box');
+    var totalEl = doc.querySelector('[data-stat="total"]');
+    if (!cards.length || !totalEl) {
+      return;
+    }
+
+    var NAME_TOKEN = '\u0001';
+    var total = 0;
+    var lead = 0;
+    var second = 0;
+
+    Array.prototype.forEach.call(cards, function (card) {
+      total += 1;
+
+      var authorLine = null;
+      Array.prototype.forEach.call(card.querySelectorAll('.paper-box-text p'), function (p) {
+        if (!authorLine && p.querySelector('strong u')) {
+          authorLine = p;
+        }
+      });
+      if (!authorLine) {
+        return;
+      }
+
+      var name = authorLine.querySelector('strong u');
+      var holder = name.closest('strong');
+      var mark = holder.nextElementSibling;
+      mark = mark && mark.tagName === 'SUP' && mark.classList.contains('author-mark')
+        ? (mark.getAttribute('title') || '')
+        : '';
+      var equal = /equal/i.test(mark);
+      var corresponding = /corresponding/i.test(mark);
+
+      // swap the name for a token so it survives the author split intact
+      var copy = authorLine.cloneNode(true);
+      Array.prototype.forEach.call(copy.querySelectorAll('sup.author-mark'), function (sup) {
+        sup.parentNode.removeChild(sup);
+      });
+      var copyName = copy.querySelector('strong u');
+      copyName.closest('strong').parentNode.replaceChild(doc.createTextNode(NAME_TOKEN), copyName.closest('strong'));
+
+      var authors = copy.textContent.split(/,|\band\b/).map(function (part) {
+        return part.trim().replace(/[.,;\s]+$/, '');
+      }).filter(Boolean);
+      var position = authors.indexOf(NAME_TOKEN) + 1;
+
+      if (position === 1 || equal || corresponding) {
+        lead += 1;
+      }
+      if (position === 2) {
+        second += 1;
+      }
+    });
+
+    var write = function (key, value) {
+      var num = doc.querySelector('[data-stat="' + key + '"]');
+      var bar = doc.querySelector('[data-stat-bar="' + key + '"]');
+      if (num) {
+        num.textContent = String(value);
+      }
+      if (bar) {
+        bar.style.width = Math.round((value / total) * 100) + '%';
+      }
+    };
+
+    write('total', total);
+    write('lead', lead);
+    write('second', second);
+  })();
+
   /* ------------------------------------------------------- news toggle */
 
   var newsList = doc.querySelector('.page__content > [id="-news"] + ul');

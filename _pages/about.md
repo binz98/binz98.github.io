@@ -92,12 +92,10 @@ Interested in research collaboration? Feel free to get in touch.
 # 📝 Publications 
 
 <div class="pub-stats">
-<div class="pub-stats__item"><span class="pub-stats__num">40</span><span class="pub-stats__label">Publications</span><span class="pub-stats__meter"><span style="width: 100%"></span></span></div>
-<div class="pub-stats__item"><span class="pub-stats__num pub-stats__num--trio"><span>6</span><i>·</i><span>2</span><i>·</i><span>6</span></span><span class="pub-stats__label">First · Co-first · Corresponding</span><span class="pub-stats__meter"><span style="width: 35%"></span></span></div>
-<div class="pub-stats__item"><span class="pub-stats__num">14</span><span class="pub-stats__label">Second author</span><span class="pub-stats__meter"><span style="width: 35%"></span></span></div>
+<div class="pub-stats__item"><span class="pub-stats__num" data-stat="total">40</span><span class="pub-stats__label">Publications</span><span class="pub-stats__meter"><span data-stat-bar="total" style="width: 100%"></span></span></div>
+<div class="pub-stats__item"><span class="pub-stats__num" data-stat="lead">15</span><span class="pub-stats__label">First · Co-first · Corresponding</span><span class="pub-stats__meter"><span data-stat-bar="lead" style="width: 38%"></span></span></div>
+<div class="pub-stats__item"><span class="pub-stats__num" data-stat="second">14</span><span class="pub-stats__label">Second author</span><span class="pub-stats__meter"><span data-stat-bar="second" style="width: 35%"></span></span></div>
 </div>
-
-<p class="pub-stats__note">6 first-author, 2 co-first (*) and 6 corresponding (✉) papers, 14 in all; two of the 14 second-author papers are also corresponding.</p>
 
 <p class="pub-legend"><span><sup class="author-mark">*</sup>Equal contribution</span><span><sup class="author-mark">✉</sup>Corresponding author</span></p>
 
@@ -677,9 +675,9 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 # 🎙️ Invited Talks
 
 <ul class="talk-list">
-<li><span class="talk__head"><span class="talk__date">2023.07</span><span class="talk__venue">IJCAI · Macau</span></span><span class="talk__title">Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning</span></li>
-<li><span class="talk__head"><span class="talk__date">2023.12</span><span class="talk__venue">International Doctoral Forum · Hong Kong</span></span><span class="talk__title">Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems</span></li>
 <li><span class="talk__head"><span class="talk__date">2026.10</span><span class="talk__venue">Institute of Microelectronics, CAS · 大算力AI芯片软硬件生态协同学术研讨会</span></span><span class="talk__title">知识引导与经验驱动的智能体决策学习及自主进化</span></li>
+<li><span class="talk__head"><span class="talk__date">2023.12</span><span class="talk__venue">International Doctoral Forum · Hong Kong</span></span><span class="talk__title">Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems</span></li>
+<li><span class="talk__head"><span class="talk__date">2023.07</span><span class="talk__venue">IJCAI · Macau</span></span><span class="talk__title">Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning</span></li>
 </ul>
 
 # 🥇 Honors and Awards
