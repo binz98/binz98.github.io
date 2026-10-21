@@ -91,6 +91,16 @@ Interested in research collaboration? Feel free to get in touch.
 
 # 📝 Publications 
 
+<div class="pub-stats">
+<div class="pub-stats__item pub-stats__item--total"><span class="pub-stats__num">40</span><span class="pub-stats__label">Publications</span></div>
+<div class="pub-stats__item"><span class="pub-stats__num">6</span><span class="pub-stats__label">First author</span><span class="pub-stats__meter"><span style="width: 15%"></span></span></div>
+<div class="pub-stats__item"><span class="pub-stats__num">2</span><span class="pub-stats__label">Co-first author</span><span class="pub-stats__meter"><span style="width: 5%"></span></span></div>
+<div class="pub-stats__item"><span class="pub-stats__num">6</span><span class="pub-stats__label">Corresponding</span><span class="pub-stats__meter"><span style="width: 15%"></span></span></div>
+<div class="pub-stats__item"><span class="pub-stats__num">14</span><span class="pub-stats__label">Second author</span><span class="pub-stats__meter"><span style="width: 35%"></span></span></div>
+</div>
+
+<p class="pub-stats__note">Bars show each role's share of the 40 papers; a paper can count in more than one role.</p>
+
 <p class="pub-legend"><span><sup class="author-mark">*</sup>Equal contribution</span><span><sup class="author-mark">✉</sup>Corresponding author</span></p>
 
 <!-- Publication cards in citation layout:
@@ -666,8 +676,23 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 - `OpenReview` [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
 -  `arXiv:2404.17780` [Verco: Learning Coordinated Verbal Communication for Multi-agent Reinforcement Learning](https://arxiv.org/abs/2404.17780). Dapeng Li, Hang Dong, Lu Wang, Bo Qiao, Si Qin, Qingwei Lin, Dongmei Zhang, Qi Zhang, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
   
+# 🎙️ Invited Talks
 
- 
+<div class="talk-list">
+<div class="talk">
+<div class="talk__head"><span class="talk__date">2023.07</span><span class="talk__venue">IJCAI · Macau</span></div>
+<p class="talk__title">Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning</p>
+</div>
+<div class="talk">
+<div class="talk__head"><span class="talk__date">2024.12</span><span class="talk__venue">PhD Forum · Hong Kong</span></div>
+<p class="talk__title">Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems</p>
+</div>
+<div class="talk">
+<div class="talk__head"><span class="talk__date">2026.10</span><span class="talk__venue">Institute of Microelectronics, CAS · 大算力AI芯片软硬件生态协同学术研讨会</span></div>
+<p class="talk__title">知识引导与经验驱动的智能体决策学习及自主进化</p>
+</div>
+</div>
+
 # 🥇 Honors and Awards
 - *2023*, Future Star Award, SenseTime Research (Intern Top 1)
 - *2023*, Merit Student, University of Chinese Academy of Sciences
@@ -700,3 +725,13 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 
 # 💻 Internships
 - *2023.07 - 2024.04*, [SenseTime Research](https://www.sensetime.com/), China.
+
+# 🤝 Research Collaboration
+
+<div class="collab-grid">
+<div class="collab-card"><span class="collab-card__mark">SU</span><span class="collab-card__body"><span class="collab-card__name">Shandong University</span><span class="collab-card__kind">Academic</span></span></div>
+<div class="collab-card"><span class="collab-card__mark">MT</span><span class="collab-card__body"><span class="collab-card__name">Meituan</span><span class="collab-card__kind">Industry</span></span></div>
+<div class="collab-card"><span class="collab-card__mark">LA</span><span class="collab-card__body"><span class="collab-card__name">Li Auto</span><span class="collab-card__kind">Industry</span></span></div>
+<div class="collab-card"><span class="collab-card__mark">HW</span><span class="collab-card__body"><span class="collab-card__name">Huawei</span><span class="collab-card__kind">Industry</span></span></div>
+</div>
+

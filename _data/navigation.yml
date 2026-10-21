@@ -11,7 +11,7 @@ main:
   - title: "Experience"
     url: "/#-experience"
 
-  - title: "Research Interest"
+  - title: "Research"
     url: "/#-research-interest"
 
   - title: "Publications"
@@ -20,7 +20,10 @@ main:
   - title: "Preprint"
     url: "/#-preprint"
 
-  - title: "Honors and Awards"
+  - title: "Talks"
+    url: "/#-invited-talks"
+
+  - title: "Honors"
     url: "/#-honors-and-awards"
 
   - title: "Academic Services"
@@ -29,5 +32,5 @@ main:
   - title: "Internships"
     url: "/#-internships"
 
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
+  - title: "Collaboration"
+    url: "/#-research-collaboration"
