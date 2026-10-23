@@ -672,6 +672,7 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 - `OpenReview` [Constructing Informative Subtask Representations for Multi-Agent Coordination](https://openreview.net/forum?id=GztevK7jDh). Guangchong Zhou, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Dapeng Li, Zeren Zhang, Guoliang Fan
 -  `arXiv:2404.17780` [Verco: Learning Coordinated Verbal Communication for Multi-agent Reinforcement Learning](https://arxiv.org/abs/2404.17780). Dapeng Li, Hang Dong, Lu Wang, Bo Qiao, Si Qin, Qingwei Lin, Dongmei Zhang, Qi Zhang, Zhiwei Xu, <strong><u>Bin Zhang</u></strong>, Guoliang Fan
   
+<!--
 <h1 id="-invited-talks">🎙️ Invited Talks</h1>
 
 <ul class="talk-list">
@@ -679,6 +680,7 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 <li><span class="talk__head"><span class="talk__date">2023.12</span><span class="talk__venue">International Doctoral Forum · Hong Kong</span></span><span class="talk__title">Stackelberg Decision Transformer for Asynchronous Action Coordination in Multi-Agent Systems</span></li>
 <li><span class="talk__head"><span class="talk__date">2023.07</span><span class="talk__venue">IJCAI Oral · Macau</span></span><span class="talk__title">Inducing Stackelberg Equilibrium through Spatio-Temporal Sequential Decision-Making in Multi-Agent Reinforcement Learning</span></li>
 </ul>
+-->
 
 # 🥇 Honors and Awards
 - *2023*, Future Star Award, SenseTime Research (Intern Top 1)
@@ -710,6 +712,8 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 - International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2025, 2026)
 - International World Wide Web Conference (WWW 2025)
 
+<!--
 # 💻 Internships
 - *2023.07 - 2024.04*, [SenseTime Research](https://www.sensetime.com/), China.
+-->
 
