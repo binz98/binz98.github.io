@@ -46,9 +46,10 @@ Interested in research collaboration? Feel free to get in touch.
 </div>
 
 # 🔥 News
+- *2026.10*: &nbsp; Honored to serve as an **Area Chair** for **for ACL ARR 2026 October**!
 - *2026.09*: &nbsp;🎉🎉 **TrustFlow** has been accepted to **NeurIPS 2026**!
-- *2026.09*: &nbsp; I am serving as an **Area Chair** for **ICLR 2027**!
-- *2026.08*: &nbsp;🎉🎉 **AirBranching** has been accepted to **ESWA**!
+- *2026.09*: &nbsp; Honored to serve as an **Area Chair** for **ICLR 2027**!
+- *2026.08*: &nbsp;🎉🎉 **AirBranching** has been accepted to **Expert Systems with Applications (ESWA)**!
 - *2026.08*: &nbsp;🎉🎉 **SGA-ACR** has been accepted to **ICONIP 2026**!
 - *2026.06*: &nbsp;🎉🎉 **LeanRefiner** has been accepted to **AI for Math Workshop @ ICML 2026**!
 - *2026.05*: &nbsp;🎉🎉 **SQLBench** and **LLaMAC** have been accepted to **CASE 2026**!
@@ -700,6 +701,7 @@ We introduce MGAN, which combines graph convolutional networks with value decomp
 
 **Area Chair**
 - International Conference on Learning Representations (ICLR 2027)
+- ACL Rolling Review (ACL ARR 2026 October)
 
 **Program Committee Member or Reviewer**
 - IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
